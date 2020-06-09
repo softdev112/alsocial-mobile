@@ -1,0 +1,2 @@
+export const IMAGE_UPLOAD = "IMAGE/UPLOAD";
+export const IMAGE_INFO = "IMAGE/ADD_IMAGE_INFO";

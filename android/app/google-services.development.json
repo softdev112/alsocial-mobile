@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "501355266284",
+    "firebase_url": "https://allsocial-development.firebaseio.com",
+    "project_id": "allsocial-development",
+    "storage_bucket": "allsocial-development.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501355266284:android:64744cfdb3b89ef5",
+        "android_client_info": {
+          "package_name": "com.allsocial.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501355266284-0f5gggu9innt157jg5mpalltbskqf9ok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.allsocial.app",
+            "certificate_hash": "e1091ca6482e386dd093b499117ee2bb93736cb1"
+          }
+        },
+        {
+          "client_id": "501355266284-8isqs88j34h047v99647k70bi3qob6na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmzPX9vTYcXwsV8yf5OqmbmQOlB8oBHms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501355266284-8isqs88j34h047v99647k70bi3qob6na.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501355266284-nb0tm946fm06p7bftiglblm6r8c603hd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.allsocial.app",
+                "app_store_id": "1450671477"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

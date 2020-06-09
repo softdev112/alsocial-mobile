@@ -1,0 +1,55 @@
+const colorsLight = {
+    teal: "#85cfc8",
+    orange: "#fb9b5f",
+    yellow: "#ffdd8b",
+    purple: "#d78098",
+    pink: "#f6e3e0",
+    faintGrey: "#f4f4f4",
+    lightGrey: "#ededed",
+    transparentGrey: "rgba(200, 200, 200, 0.95)",
+    overlayColor: "rgba(0, 0, 0, 0.5)",
+    ashGrey: "#ddd",
+    medGrey: "#aaa",
+    grey: "#555",
+    darkGrey: "#555",
+    dark: "#333",
+    red: "#b22222",
+};
+
+const colorsDark = {
+    teal: "#6eaca8",
+    orange: "#fb9b5f",
+    yellow: "#ffd87a",
+    purple: "#d78098",
+    pink: "#e6bbb4",
+    faintGrey: "rgba(255, 255, 255, 0.08)",
+    lightGrey: "rgba(255, 255, 255, 0.15)",
+    transparentGrey: "rgba(50, 50, 50, 0.95)",
+    overlayColor: "rgba(100, 100, 100, 0.5)",
+    ashGrey: "rgba(255, 255, 255, 0.3)",
+    medGrey: "rgba(255, 255, 255, 0.5)",
+    grey: "rgba(255, 255, 255, 0.85)",
+    darkGrey: "rgba(255, 255, 255, 0.4)",
+    dark: "rgba(255, 255, 255, 0.85)",
+    red: "#b22222",
+};
+
+const colorsDim = {
+    teal: "#7abfb8",
+    orange: "#fb9b5f",
+    yellow: "#ffd87a",
+    pink: "#e6bbb4",
+    purple: "#d78098",
+    faintGrey: "rgba(255, 255, 255, 0.08)",
+    lightGrey: "rgba(255, 255, 255, 0.15)",
+    transparentGrey: "rgba(33, 45, 61, 0.95)",
+    overlayColor: "rgba(116, 172, 168, 0.3)",
+    ashGrey: "rgba(255, 255, 255, 0.3)",
+    medGrey: "rgba(255, 255, 255, 0.5)",
+    grey: "rgba(255, 255, 255, 0.95)",
+    darkGrey: "rgba(255, 255, 255, 0.5)",
+    dark: "rgba(255, 255, 255, 0.95)",
+    red: "#b22222",
+};
+
+export { colorsLight, colorsDark, colorsDim };

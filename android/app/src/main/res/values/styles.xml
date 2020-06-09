@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <item name="colorAccent">#88cfc9</item>
+        <item name="android:windowBackground">@color/background</item>
+        <!-- Below line: https://github.com/facebook/react-native/issues/17530#issuecomment-534105719 -->
+        <item name="android:editTextBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

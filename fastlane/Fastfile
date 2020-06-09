@@ -1,0 +1,124 @@
+jenkinsBuildNumber = ENV["PREV_BUILD_NUM"]
+$buildNumber = jenkinsBuildNumber
+$versionNumber = ENV["APP_VERSION"]
+
+platform :ios do
+  before_all do
+    puts 'ios: before_all'
+    setup_circle_ci
+    cocoapods({
+      podfile: "./ios/Podfile"
+    })
+  end
+  desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+
+  lane :build_adhoc do
+    register_devices(devices_file: "./fastlane/devices.txt")
+    match(git_url: "https://#{ENV["CERT_US"]}:#{ENV["CERT_PASS"]}@github.com/all-social/ios-signing-certificates.git", type: "adhoc", force_for_new_devices: true, readonly: false)
+    increment_build_number(
+      xcodeproj:"ios/AllSocialMobile.xcodeproj",
+      build_number: $buildNumber
+    )
+    increment_version_number(
+      xcodeproj:"ios/AllSocialMobile.xcodeproj",
+      version_number: $versionNumber
+    )
+    disable_automatic_code_signing(
+      path: "ios/AllSocialMobile.xcodeproj"
+    )
+    update_project_team(
+      path: "ios/AllSocialMobile.xcodeproj",
+      teamid: "K43S68W828"
+    )
+    gym(      
+      xcargs: "PROVISIONING_PROFILE_SPECIFIER='match AdHoc com.allsocial.app' PRODUCT_BUNDLE_IDENTIFIER='com.allsocial.app' -UseNewBuildSystem='NO'",
+      codesigning_identity: "iPhone Distribution: All Social, Inc. (K43S68W828)",
+      workspace: "ios/AllSocialMobile.xcworkspace",
+      scheme: "AllSocialMobile",
+      configuration: "Release",
+      clean: true,
+      output_directory: "./ios_build",
+      output_name: "allsocialnet_adhoc.ipa"
+    )
+  end
+
+  lane :build_appstore do
+    changelogFile = File.read("../RELEASE_NOTES.txt")
+    register_devices(devices_file: "./fastlane/devices.txt")
+    match(git_url: "https://#{ENV["CERT_US"]}:#{ENV["CERT_PASS"]}@github.com/all-social/ios-signing-certificates.git", type: "appstore", force_for_new_devices: true, readonly: false)
+    increment_build_number(
+      xcodeproj:"ios/AllSocialMobile.xcodeproj",
+      build_number: $buildNumber
+    )
+    increment_version_number(
+      xcodeproj:"ios/AllSocialMobile.xcodeproj",
+      version_number: $versionNumber
+    )
+    disable_automatic_code_signing(
+      path: "ios/AllSocialMobile.xcodeproj"
+    )
+    update_project_team(
+      path: "ios/AllSocialMobile.xcodeproj",
+      teamid: "K43S68W828"
+    )
+    gym(
+      xcargs: "PROVISIONING_PROFILE_SPECIFIER='match AppStore com.allsocial.app' PRODUCT_BUNDLE_IDENTIFIER='com.allsocial.app' -UseNewBuildSystem='NO'",
+      codesigning_identity: "iPhone Distribution: All Social, Inc. (K43S68W828)",
+      workspace: "ios/AllSocialMobile.xcworkspace",      
+      scheme: "AllSocialMobile",
+      configuration: "Release",
+      clean: true,
+      output_directory: "./ios_build",
+      output_name: "allsocialnet_appstore.ipa"
+    )
+    upload_to_testflight(
+      ipa: "./ios_build/allsocialnet_appstore.ipa",
+      reject_build_waiting_for_review: "true",
+      changelog: changelogFile
+    )
+  end
+end
+
+platform :android do
+  before_all do
+    puts 'android: before_all'
+  end
+
+  lane :build_release do
+    gradle(
+      task: "clean",
+      project_dir: "android/"
+     )
+    gradle(
+      task: "assemble",
+      build_type: "Release",
+      project_dir: "android/",
+      flags: "--no-daemon --max-workers 1",
+    )
+    upload_to_play_store(
+      track: 'internal',
+      package_name: 'com.allsocial.app',
+      json_key: './fastlane/.api-4685551689335151985-229439-06c684c57aac.json'
+    )
+  end
+
+  lane :build_beta do
+    gradle(
+      task: "clean",
+      project_dir: "android/"
+     )
+    gradle(
+      task: "assemble",
+      build_type: "Release",
+      project_dir: "android/",
+      flags: "--no-daemon --max-workers 1",
+    )
+  end  
+
+  after_all do |lane|
+    puts 'android: after_all'
+  end
+end

@@ -1,0 +1,1629 @@
+## Release Candidate version 1.0.303 build 1928
+
+-   2019-11-14 Merge pull request #923 from allsocial-mobile/hotfix/AN-939/android-crashes Vir Desai `cab4cc3e`
+-   2019-11-14 removing unused packages and fixing doc and trying to fix crash with github documentation solutions Vir Desai `a5fd4735`
+-   2019-11-13 AN-939: attempted android crash fixes with package upgrade, if checks, and try-catch statements around stringifying Vir Desai `e8b4fda6`
+-   2019-11-13 AN-939: attempted android crash fixes with package upgrade, if checks, and try-catch statements around stringifying Vir Desai `f0fddd67`
+-   2019-11-12 release candidate for version 1.0.303 build 1927 Vir Desai `efa0a023`
+
+## Release Candidate version 1.0.303 build 1927
+
+-   2019-11-12 Merge pull request #912 from all-social/hotfix/AN-931/create-custom-bottomsheet Vir Desai `8189163b`
+-   2019-11-12 Merge pull request #921 from all-social/hotfix/AN-939/fix-android-crash Vir Desai `87283c05`
+-   2019-11-12 Merge pull request #916 from all-social/hotfix/AN-972/settings-option-space Vir Desai `d1ccf49f`
+-   2019-11-12 Merge pull request #922 from all-social/merge-master Vir Desai `6bbbf26f`
+-   2019-11-12 merge master Vir Desai `709c0f5d`
+
+## Release Candidate version 1.0.302 build 1924
+
+-   2019-11-07 Merge pull request #907 from all-social/feature/AN-677/foreground-no-push-notifications Vir Desai `5cb98d10`
+-   2019-11-07 adding sound alert if app is in foreground and a notification is received Vir Desai `47d44d44`
+-   2019-11-07 AN-677: not showing remote notification on iOS unless app is in background and for android clearing notifications on a.. Vir Desai `d6d288e3`
+-   2019-11-07 Merge pull request #906 from all-social/hotfix/AN-950/theme-change-video-push-notification Vir Desai `06fe467e`
+-   2019-11-07 AN-950: remove change app theme and utilize full screen observable and piggyback push notification open fullscreen cha.. Vir Desai `7128a463`
+-   2019-11-05 Merge pull request #905 from all-social/hotfix/AN-954/about-us Vir Desai `1de1fbee`
+-   2019-11-05 Fixed about us kostetskydmitry `1b02357a`
+-   2019-11-05 Merge pull request #904 from all-social/hotfix/AN-945/home-feed-order Vir Desai `ab4dbc60`
+-   2019-11-05 removed unnecessary things kostetskydmitry `6f8a033a`
+-   2019-11-05 Fixed ordered feeds kostetskydmitry `c423dfb9`
+-   2019-11-05 Merge pull request #903 from all-social/hotfix/AN-947/username-bold Vir Desai `38663bcd`
+-   2019-11-05 Fixed username bold kostetskydmitry `b9dc46e0`
+-   2019-11-05 Merge pull request #902 from all-social/hotfix/AN-940+AN-941+AN-942+AN-944/repost-line-break-suggestion-box Vir Desai `91f17f2f`
+-   2019-11-04 Fixed mising the line break and suggestion-box on repost kostetskydmitry `f9d6ef51`
+-   2019-11-04 Fixed missing the line break on repost screen kostetskydmitry `96cd709c`
+-   2019-11-04 release candidate for version 1.0.302 build 1923 Vir Desai `a80237d2`
+
+## Release Candidate version 1.0.302 build 1923
+
+-   2019-11-04 Merge pull request #897 from all-social/hotfix/AN-920/android-facebook-video-bug Vir Desai `f37d29a8`
+-   2019-11-04 removing unneeded URL change Vir Desai `58ad73d6`
+-   2019-11-04 Merge pull request #898 from all-social/hotfix/AN-906/logged-out-light-mode Vir Desai `f7a941df`
+-   2019-11-04 Fixed logged out users should always see the light display mode kostetskydmitry `091c5c4a`
+-   2019-11-04 AN-920: work around for making android video links render and play in the standard div Vir Desai `ad141122`
+-   2019-11-04 Merge pull request #894 from all-social/hotfix/AN-932/followers-following Vir Desai `7189ae0d`
+-   2019-11-04 Merge pull request #895 from all-social/hotfix/AN-798/second-word-region Vir Desai `97b53a9f`
+-   2019-11-04 Merge pull request #896 from all-social/hotfix/AN-922/fullscreen-exited-display-mode Vir Desai `94bd7375`
+-   2019-11-04 Fixed changing the display mode when exited fullscreen kostetskydmitry `4615d2a8`
+-   2019-11-01 Fixed the second word for regions is lower case in edit profile kostetskydmitry `09e354f0`
+-   2019-11-01 Fixed followers/following is bold kostetskydmitry `02fdf545`
+-   2019-11-01 Merge pull request #891 from all-social/hotfix/AN-928+AN-929/welcome-screen-light-mode Vir Desai `1165a9d2`
+-   2019-11-01 Merge pull request #892 from all-social/hotfix/AN-933/remove-permission-edit-post Vir Desai `c57d0bc3`
+-   2019-11-01 Merge pull request #893 from all-social/hotfix/AN-927/android-push-notification Vir Desai `8f75e9f2`
+-   2019-11-01 Fixed android push notification crashes kostetskydmitry `8572e065`
+-   2019-11-02 Remove permission for media access when editing post without images Aleksa Stevanovic `bedcf9f4`
+-   2019-11-01 Fixed welcome screen to light mode kostetskydmitry `de4399f4`
+-   2019-11-01 Merge pull request #890 from all-social/hotfix/AN-925/feed-username-bold Vir Desai `0adadf60`
+-   2019-11-01 Fixed usernames should be bolded wverywhere kostetskydmitry `f43e40a7`
+-   2019-11-01 Merge pull request #888 from all-social/hotfix/AN-918/edit-post-uploading-image Vir Desai `ab8f8fb8`
+-   2019-11-01 Merge pull request #889 from all-social/hotfix/AN-922/display-mode Vir Desai `01423181`
+-   2019-11-01 Fixed some issue kostetskydmitry `0b5f4fa3`
+-   2019-11-01 Fixed some issues kostetskydmitry `c732c7a6`
+-   2019-11-01 Fixed the app was set to light mode but it was in dark mode kostetskydmitry `e6e2cedd`
+-   2019-11-01 AN-918: checking if the file images in the edit post have a url or not before putting Vir Desai `4d377655`
+-   2019-11-01 Merge pull request #885 from all-social/hotfix/AN-919/about-theme Vir Desai `e1dd6fc8`
+-   2019-11-01 Merge pull request #887 from all-social/hotfix/AN-923/gif-model-dark-dim-mode Vir Desai `c0c91e3b`
+-   2019-11-01 Merge pull request #886 from all-social/hotfix/AN-921/post-modal-link-cursor Vir Desai `c1a7bd9e`
+-   2019-11-01 Fixed dark/dim mode in GIF modal kostetskydmitry `5644ff90`
+-   2019-11-01 Fixed the cursor in link post modal kostetskydmitry `d6f833d6`
+-   2019-10-31 Support dim/dark mode for about us kostetskydmitry `4ff23999`
+-   2019-10-31 release candidate for version 1.0.302 build 1922 Vir Desai `65015b19`
+
+## Release Candidate version 1.0.302 build 1922
+
+-   2019-10-31 Merge pull request #882 from all-social/hotfix/AN-916/edit-activity-notification-timestamp Vir Desai `9f4ff731`
+-   2019-10-31 simpler fix Vir Desai `715aee84`
+-   2019-10-31 Merge pull request #883 from all-social/hotfix/AN-887/fix-notifications-rendering Vir Desai `a7573295`
+-   2019-10-31 AN-887: Fix notification items rendering Dmitry Derevyanko `9f5cd9a5`
+-   2019-10-31 AN-916: editing the return of the fetch notifications call to set the activity time to the updated time object key value Vir Desai `1ee02d5e`
+-   2019-10-31 Merge pull request #881 from all-social/hotfix/AN-865/profile-feed-tab Vir Desai `8c1eda4b`
+-   2019-10-31 Merge pull request #880 from all-social/hotfix/AN-907/undo-repost Vir Desai `68116afc`
+-   2019-10-31 Fixed Likes and Post feed on profile page kostetskydmitry `363c61ae`
+-   2019-10-31 Fixed undo repost kostetskydmitry `61b6fe7b`
+-   2019-10-31 Merge pull request #873 from all-social/hotfix/AN-899/pn-sticking Vir Desai `66b5b627`
+-   2019-10-31 AN-899: adding saga code for race conditions Vir Desai `f50afcdc`
+-   2019-10-31 Merge pull request #879 from all-social/hotfix/AN-892/updating-username Vir Desai `abfaba25`
+-   2019-10-31 Fixed username after updating kostetskydmitry `cf907096`
+-   2019-10-31 Merge branch 'release/1.0.302' of github.com:all-social/mobile into hotfix/AN-899/pn-sticking Vir Desai `4ff723fb`
+-   2019-10-31 Merge pull request #878 from all-social/hotfix/AN-906/about-welcome-light-mode Vir Desai `909f5c76`
+-   2019-10-31 Fixed about and welcome page to light mode kostetskydmitry `8caf3417`
+-   2019-10-31 Merge pull request #877 from all-social/hotfix/AN-909/post-modal-alginment Vir Desai `082f72e6`
+-   2019-10-31 Fixed some issues kostetskydmitry `7a2c40b3`
+-   2019-10-31 Fixed post modal alginment kostetskydmitry `99a6d57e`
+-   2019-10-31 Merge pull request #875 from all-social/hotfix/AN-913/about-explore-button Vir Desai `a498b787`
+-   2019-10-31 Merge pull request #876 from all-social/hotfix/AN-910/post-alignment Vir Desai `4d3ed9fe`
+-   2019-10-31 Fixed android post modal alignment kostetskydmitry `1c4a087f`
+-   2019-10-31 Merge pull request #874 from all-social/hotfix/AN-914/repost-icon-position Vir Desai `1ce20d65`
+-   2019-10-31 Fixed on the about page the explore button text color to white kostetskydmitry `89db6b19`
+-   2019-10-31 Fixed repost icon position kostetskydmitry `17010d00`
+-   2019-10-30 AN-899: changing push notification listener Vir Desai `c392814e`
+-   2019-10-30 Merge pull request #872 from all-social/hotfix/AN-908/repost-icon-color Vir Desai `957c30f9`
+-   2019-10-30 Fixed repost icon color kostetskydmitry `dbf306d8`
+-   2019-10-30 Merge pull request #870 from all-social/hotfix/AN-902+AN-886+AN-888+AN-889+AN-894+AN-901+AN-904/bottom-sheet Vir Desai `93724d06`
+-   2019-10-30 Merge pull request #871 from all-social/hotfix/AN-897/fix-blank-screen Vir Desai `e175f1d6`
+-   2019-10-30 Remove console.log kostetskydmitry `c3d20b57`
+-   2019-10-30 AN-897: Fix blank screen issue between tab switching Dmitry Derevyanko `8b955223`
+-   2019-10-30 Fixed some issues with bottomsheet kostetskydmitry `8011fe24`
+-   2019-10-30 Merge pull request #869 from all-social/hotfix/AN-898/suggestion-box-boder Vir Desai `1aecbd58`
+-   2019-10-30 Fixed the border arround the suggestions box kostetskydmitry `a7d01379`
+-   2019-10-30 Merge pull request #868 from all-social/hotfix/AN-893/new-post-banner Vir Desai `21a0361e`
+-   2019-10-30 Merge pull request #866 from all-social/hotfix/AN-454/forgot-password Vir Desai `6752749c`
+-   2019-10-30 Merge pull request #867 from all-social/hotfix/AN-900/invalid-user Vir Desai `283995dc`
+-   2019-10-30 Fixed text in the new post banner is too large kostetskydmitry `d1b864c2`
+-   2019-10-30 Fixed configs kostetskydmitry `c1e6dd4d`
+-   2019-10-30 Fixed invalid user kostetskydmitry `bf5f34db`
+-   2019-10-29 Fixed deep link for forgot password kostetskydmitry `352fa9c3`
+-   2019-10-29 Merge pull request #865 from all-social/hotfix/AN-895/default-PN-toggle-on Vir Desai `461f2459`
+-   2019-10-29 AN-895: default push notifications toggle to on Vir Desai `a79394c7`
+-   2019-10-29 merge Vir Desai `000a5844`
+-   2019-10-29 release candidate for version 1.0.302 build 1921 Vir Desai `de355a73`
+
+## Release Candidate version 1.0.302 build 1921
+
+-   2019-10-29 Merge pull request #845 from all-social/refactor/branch-context-routing Vir Desai `9ca65e39`
+-   2019-10-29 android routing delay to let app load Dan Carbonell `56ef6bea`
+-   2019-10-29 Merge pull request #853 from all-social/feature/AN-514/full-screen-instagram-video Vir Desai `864744ff`
+-   2019-10-29 Merge branch 'release/1.0.302' of github.com:all-social/mobile into feature/AN-514/full-screen-instagram-video Vir Desai `5e38aa1d`
+-   2019-10-29 Merge pull request #863 from all-social/hotfix/AN-839/fix-gifs-pagination Vir Desai `5c458732`
+-   2019-10-29 AN-839: Fix memoize-one version Aleksa Stevanovic `85099c26`
+-   2019-10-29 AN-839: Fix spacing between items Aleksa Stevanovic `192e58d1`
+-   2019-10-29 AN-839: remove redundant code Aleksa Stevanovic `f72ac360`
+-   2019-10-29 AN-839: Complete efficient masonry view Aleksa Stevanovic `aecb1c4b`
+-   2019-10-28 AN-839: Add masonry view component Aleksa Stevanovic `837d1ca0`
+-   2019-10-29 merge with new release Dan Carbonell `13e8231d`
+-   2019-10-29 Merge branch 'release/1.0.302' of github.com:all-social/mobile into feature/AN-514/full-screen-instagram-video Vir Desai `7d8807df`
+-   2019-10-29 handling android back button removing app theme change Vir Desai `e19e2ec7`
+-   2019-10-29 Merge pull request #862 from all-social/hotfix/AN-872/bottomsheet-theme-mode Vir Desai `013fbfe5`
+-   2019-10-28 remove AN-839 changes Vir Desai `f71bfee4`
+-   2019-10-28 AN-883: sign up screen terms and privacy unbold text Vir Desai `ca57702f`
+-   2019-10-28 package updating and removal of unused Vir Desai `47837ee3`
+-   2019-10-29 Restored prev commit dmitryvko83 `f4e1f9b4`
+-   2019-10-29 Fixed bottomsheet theme dmitryvko83 `c2a323bc`
+-   2019-10-28 AN-839: load more GIFs when reaching the bottom of the GIF modal masonry list Vir Desai `911c1c2f`
+-   2019-10-28 making background color black for fullscreen video mode using theme context and back to previous state when navigating.. Vir Desai `a60d8e94`
+-   2019-10-28 making background color black for fullscreen video mode using theme context and back to previous state when navigating.. Vir Desai `699a0bd6`
+-   2019-10-28 Merge pull request #861 from all-social/hotfix/AN-407/ask-permissions Vir Desai `44dd7384`
+-   2019-10-28 Fixed asking the permissions on Android kostetskydmitry `2fb0dc9d`
+-   2019-10-28 Merge pull request #859 from all-social/hotfix/AN-849+AN-867+AN-881/notification-issues Vir Desai `ed8a5ef3`
+-   2019-10-28 Fixed notification issues kostetskydmitry `ead20c67`
+-   2019-10-28 android only work around for facebook posts/video links Vir Desai `6213d644`
+-   2019-10-28 fixing facebook video loading Vir Desai `fc82485c`
+-   2019-10-28 removing config change Vir Desai `8f21ff15`
+-   2019-10-28 removing async code from promise chain Vir Desai `9df78153`
+-   2019-10-28 Merge pull request #854 from all-social/hotfix/AN-866/forgot-password Vir Desai `6169abb6`
+-   2019-10-28 Merge branch 'release/1.0.302' of github.com:all-social/mobile into feature/AN-514/full-screen-instagram-video Vir Desai `61c5a61c`
+-   2019-10-28 AN-514: fixing instagram link expiration issue Vir Desai `5fcf25f1`
+-   2019-10-28 Merge pull request #857 from all-social/hotfix/AN-837/fix-suggestions-index Vir Desai `58393053`
+-   2019-10-28 Merge pull request #856 from all-social/hotfix/AN-880/blocked-profile Vir Desai `0b50a168`
+-   2019-10-28 Merge pull request #855 from all-social/hotfix/AN-876/blank-screen Vir Desai `98c0b632`
+-   2019-10-28 AN-837: Fix suggestions index on deleting activity or repost Aleksa Stevanovic `6fc29893`
+-   2019-10-27 Fixed blocked profile page kostetskydmitry `5277706a`
+-   2019-10-27 Fixed blank screen kostetskydmitry `85f9413c`
+-   2019-10-27 Fixed forgot password deep link with app force closed dmitryvko83 `bd3348b3`
+-   2019-10-25 AN-514: implementing full screen instragram video support using iframe and secure_url from og fetch Vir Desai `1087f71b`
+-   2019-10-25 Merge pull request #851 from all-social/hotfix/AN-877/modal-theme-mode Vir Desai `a0e92770`
+-   2019-10-25 Merge pull request #852 from all-social/hotfix/AN-871/display-switching Vir Desai `32fb78c8`
+-   2019-10-25 Fixed logo icon kostetskydmitry `85cceccc`
+-   2019-10-25 Fixed switch between display modes will cause it to be laggy kostetskydmitry `2cfb7e3c`
+-   2019-10-25 Fixed configs kostetskydmitry `e478e297`
+-   2019-10-25 Fixed white strip at the top of the modal kostetskydmitry `58d403e3`
+-   2019-10-25 Merge pull request #850 from all-social/hotfix/AN-878/ios-new-posts Vir Desai `b8237cbd`
+-   2019-10-26 Fixed new post notification on iOS dmitryvko83 `2f401661`
+-   2019-10-25 Merge pull request #849 from all-social/hotfix/AN-875/comment-emoji-cut-off Vir Desai `62646369`
+-   2019-10-25 Fixed comment emoji cut off kostetskydmitry `385e1f4c`
+-   2019-10-25 added android getLatest back to App Dan Carbonell `6b500e92`
+-   2019-10-25 remove getLatest from App.js Dan Carbonell `5de67e30`
+-   2019-10-25 Merge pull request #848 from all-social/hotfix/AN-879/dark-dim-mode Vir Desai `cf255d47`
+-   2019-10-25 Fixed some issues fpr dark/dim mode kostetskydmitry `dc17101e`
+-   2019-10-25 Merge pull request #847 from all-social/hotfix/AN-869/invite-screen Vir Desai `7fedb01e`
+-   2019-10-25 Fixed invite screen and keyboard issues kostetskydmitry `6f00ef33`
+-   2019-10-24 android specific routing Dan Carbonell `29d76bbc`
+-   2019-10-24 Merge pull request #844 from all-social/feature/AN-874+AN-719/notifications-and-camera-bug Vir Desai `0b2d6c51`
+-   2019-10-24 Merge pull request #846 from all-social/hotfix/AN-864/following-followers Vir Desai `49bcda1f`
+-   2019-10-25 Fxied following & followers screen dmitryvko83 `71dccb45`
+-   2019-10-24 save params in context for routing Dan Carbonell `0176e4a6`
+-   2019-10-24 Merge pull request #831 from all-social/hotfix/AN-834/remove-empty-text Vir Desai `bfb8f01a`
+-   2019-10-24 Merge pull request #843 from all-social/hotfix/AN-854/comment-crash Vir Desai `cf6db5c1`
+-   2019-10-25 Fixed comment crashes dmitryvko83 `59739668`
+-   2019-10-24 AN-874: upgrade packages and downgrade targetSdkVersion to work around for react-native-impage-crop-picker. AN-719: en.. Vir Desai `1e7fb382`
+-   2019-10-24 Merge pull request #841 from all-social/hotfix/AN-863/first-loading-suggestions Vir Desai `63686595`
+-   2019-10-24 Fixed first loading suggestions dmitryvko83 `2bda6f42`
+-   2019-10-23 Merge pull request #840 from all-social/hotfix/AN-873/posts-see-less Vir Desai `3d130875`
+-   2019-10-23 Merge pull request #839 from all-social/hotfix/AN-868/settings-display-bottomtab Vir Desai `0c2391ca`
+-   2019-10-23 Merge pull request #838 from all-social/hotfix/AN-860+AN-862/suggestions-box Vir Desai `225c7915`
+-   2019-10-23 Fixed see less on posts kostetskydmitry `e1a9869d`
+-   2019-10-23 Removed the navigation icon on the bottom on display screen kostetskydmitry `43800821`
+-   2019-10-24 Fixed suggestion box for dark-dim mode dmitryvko83 `ac1f1fa4`
+-   2019-10-23 Merge pull request #837 from all-social/hotfix/AN-859/private-user Vir Desai `1e944151`
+-   2019-10-23 Fixed private user messaging in profile page kostetskydmitry `1f145d0d`
+-   2019-10-23 Merge pull request #836 from all-social/hotfix/AN-857+AN-858/repost-comment Vir Desai `bc9c8a74`
+-   2019-10-23 Merge pull request #835 from all-social/hotfix/AN-865/profile-tab-bold Vir Desai `a549a6f5`
+-   2019-10-23 Fixed repost comment screen kostetskydmitry `6c1da573`
+-   2019-10-24 Fixed profile tab button bold text dmitryvko83 `3ccdfdc5`
+-   2019-10-23 Merge pull request #834 from all-social/hotfix/AN-855/comment-username-bold Vir Desai `78dd3277`
+-   2019-10-23 Merge pull request #833 from all-social/hotfix/AN-853/unable-post-images Vir Desai `1a36c799`
+-   2019-10-24 Fixed comment usernames are not bold dmitryvko83 `8b5d4c91`
+-   2019-10-23 Fixed unable post images kostetskydmitry `2669f900`
+-   2019-10-23 Merge pull request #832 from all-social/hotfix/AN-852/new-post-message Vir Desai `a46abb59`
+-   2019-10-24 Fixed new post message dmitryvko83 `b4938bcc`
+-   2019-10-23 Merge pull request #829 from all-social/hotfix/AN-850/iphonex-keyboard-extra-space Vir Desai `7c49dd7d`
+-   2019-10-23 merge master Vir Desai `9134855f`
+-   2019-10-23 codepush deployment Vir Desai `b2dbe2d0`
+-   2019-10-23 Removed empty text in feeds ninjasoftdev `497fd29e`
+
+## Release Candidate version 1.0.302 build 1926
+
+-   2019-11-12 Merge branch 'master' of github.com:all-social/mobile Vir Desai `c3916266`
+-   2019-11-12 Merge pull request #918 from all-social/hotfix/AN-881/notification-feed-grammar Vir Desai `cab8ffac`
+-   2019-11-12 Fixed notification feed grammar kostetskydmitry `58cbd10c`
+-   2019-11-12 release candidate for version 1.0.302 build 1925 Vir Desai `7363564e`
+
+## Release Candidate version 1.0.302 build 1925
+
+-   2019-11-12 Merge pull request #917 from all-social/hotfix/add-branch Vir Desai `a2f16e12`
+-   2019-11-12 hotfix to add branch code Dan Carbonell `a0819654`
+-   2019-10-23 codepush deployment Vir Desai `b2dbe2d0`
+
+## CODEPUSH RELEASE v10 on version 1.0.301 build 1919 reverting CODEPUSH RELEASE v9
+
+-   2019-10-23 Merge pull request #830 from all-social/revert-827-refactor/add-branch-subscribe Vir Desai `a833e15f`
+-   2019-10-23 Revert "Refactor/add branch subscribe" Vir Desai `b6ff8df6`
+-   2019-10-23 codepush deployment Vir Desai `9b425428`
+-   2019-10-23 Merge pull request #827 from all-social/refactor/add-branch-subscribe Vir Desai `5373c50a`
+
+## CODEPUSH RELEASE v9 on version 1.0.301 build 1919
+
+-   2019-10-23 Merge branch 'master' into refactor/add-branch-subscribe Vir Desai `8d81e9e3`
+-   2019-10-23 remove ! from DEV Dan Carbonell `c255acea`
+-   2019-10-23 conditionally call branch methods Dan Carbonell `5815e7ae`
+-   2019-10-22 clean up logs Dan Carbonell `3ac70bb8`
+-   2019-10-22 refactor routing and conditionals Dan Carbonell `07b14dc2`
+-   2019-10-22 adjusting feed route Dan Carbonell `e2f1be06`
+-   2019-10-21 codepush deployment Vir Desai `24c3e610`
+
+## Release Candidate version 1.0.302 build 1920
+
+-   2019-10-22 master codepush merge Vir Desai `28d6c8e2`
+-   2019-10-22 Merge pull request #819 from all-social/feature/AN-283/edit-post-repost Vir Desai `e6ed65f7`
+-   2019-10-22 Merge branch 'develop' of github.com:all-social/mobile into feature/AN-283/edit-post-repost Vir Desai `7c86c4f7`
+-   2019-10-22 Merge pull request #826 from all-social/feature/AN-288/unsupported-video Vir Desai `8f24ddd5`
+-   2019-10-22 Fixed feed for unsuppored video kostetskydmitry `063434b0`
+-   2019-10-22 remove arrow function for no reason Vir Desai `56a7a881`
+-   2019-10-22 merge develop Vir Desai `34351b26`
+-   2019-10-22 Merge branch 'develop' of github.com:all-social/mobile into feature/AN-283/edit-post-repost Vir Desai `ab4de5bf`
+-   2019-10-22 update states and timelines with async/await Vir Desai `e44d97c0`
+-   2019-10-22 Merge pull request #825 from all-social/feature/AN-850/keyboard-extra-space Vir Desai `0d621839`
+-   2019-10-22 Fxied package.json ninjasoftdev `724ad4c9`
+-   2019-10-22 Fixed keyboard extra space on iphonex ninjasoftdev `f95007a2`
+-   2019-10-22 Merge pull request #824 from all-social/feature/AN-554/dark-dim-mode Vir Desai `a234f6f9`
+-   2019-10-22 Fixed configs kostetskydmitry `2f3c026d`
+-   2019-10-22 Fixed some issues kostetskydmitry `68998685`
+-   2019-10-22 fixes for updating items after edit post/repost Vir Desai `62e1563a`
+-   2019-10-22 Merge branch 'develop' of github.com:all-social/mobile into feature/AN-283/edit-post-repost Vir Desai `888b75de`
+-   2019-10-22 merge develop Vir Desai `e84dfe9a`
+-   2019-10-22 Merge pull request #823 from all-social/feature/AN-554/dark-dim-mode Vir Desai `ad5f7372`
+-   2019-10-22 Fixed some issues kostetskydmitry `a48d9038`
+-   2019-10-22 Fixed some issues kostetskydmitry `6ae5b072`
+-   2019-10-22 Merge pull request #822 from all-social/feature/AN-544/dark-dim-mode Vir Desai `e3685d6a`
+-   2019-10-21 Fixed some UI issues kostetskydmitry `eb000189`
+-   2019-10-21 merge develop Vir Desai `9b68061e`
+-   2019-10-21 Merge pull request #793 from all-social/feature/AN-554/dark-dim-mode Vir Desai `111a17f6`
+-   2019-10-22 Merge branch 'develop' into feature/AN-554/dark-dim-mode Dmitry Kostetsky `578db2f6`
+-   2019-10-21 Merge pull request #816 from all-social/hotfix/AN-826/auth-screen Vir Desai `fb898490`
+-   2019-10-21 Fixed some issues kostetskydmitry `74ab5ba7`
+-   2019-10-21 codepush deployment Vir Desai `24c3e610`
+
+## CODEPUSH RELEASE v8 on version 1.0.301 build 1919
+
+-   2019-10-21 Merge pull request #821 from all-social/bug/journey-post-routing Vir Desai `81ec4d94`
+-   2019-10-21 detect html element and bail Dan Carbonell `0ee374c0`
+-   2019-10-21 codepush deployment Vir Desai `3d5d1f83`
+
+## CODEPUSH RELEASE v7 on version 1.0.301 build 1919
+
+-   2019-10-21 Merge pull request #820 from all-social/feature/nav-to-post-and-refactor Vir Desai `873e253f`
+-   2019-10-21 navigate to post and branch route refactor Dan Carbonell `b2a6ee22`
+-   2019-10-18 Merge pull request #813 from all-social/hotfix/AN-844/influencer-profile Vir Desai `0f9fe151`
+-   2019-10-18 codepush deployment Vir Desai `8389019c`
+
+## CODEPUSH RELEASE v6 on version 1.0.301 build 1919
+
+-   2019-10-19 Fixed some issues dmitryvko83 `8d1ddf20`
+-   2019-10-19 Fixed some issues dmitryvko83 `3129070b`
+-   2019-10-19 Fixed branch influencer profile dmitryvko83 `edd18a91`
+-   2019-10-16 release candidate for version 1.0.301 build 1919 Vir Desai `99662114`
+
+## Release Candidate version 1.0.301 build 1919
+
+-   2019-10-16 Merge pull request #810 from all-social/hotfix/AN-827/ios-branch-blank Vir Desai `4232cead`
+-   2019-10-16 Merge branch 'release/1.0.301' into hotfix/AN-827/ios-branch-blank Dmitry Kostetsky `f774836f`
+-   2019-10-16 Fixed iOS branch link navigation blank issue kostetskydmitry `a5fb7f39`
+-   2019-10-16 release candidate for version 1.0.301 build 1918 Vir Desai `60de3743`
+
+## Release Candidate version 1.0.301 build 1918
+
+-   2019-10-16 Merge pull request #806 from all-social/hotfix/AN-830/align-gender-box Vir Desai `cc8d8685`
+-   2019-10-16 Merge pull request #807 from all-social/hotfix/AN-827/branch-blank-issue Vir Desai `15612043`
+-   2019-10-16 Fixed branch blank issue dmitryvko83 `39f42705`
+-   2019-10-15 AN-830: align edit profile gender box with right side Vir Desai `573ff0c1`
+-   2019-10-15 release candidate for version 1.0.301 build 1917 Vir Desai `e81d6228`
+
+## Release Candidate version 1.0.301 build 1917
+
+-   2019-10-15 Merge pull request #804 from all-social/hotfix/AN-829/suggestions-refresh Vir Desai `85366665`
+-   2019-10-15 Merge pull request #803 from all-social/hotfix/AN-824/ordering-notification-feeds Vir Desai `109f8591`
+-   2019-10-15 Fixed loading indicator on notification screen ninjasoftdev `5e80023c`
+-   2019-10-15 Fixed configs kostetskydmitry `abf57a53`
+-   2019-10-15 Fixed suggestions every second time you refresh it refreshed twice kostetskydmitry `af0188a6`
+-   2019-10-15 Changed key value ninjasoftdev `c27bc0b1`
+-   2019-10-15 Fixed ordering notification feeds ninjasoftdev `845de69b`
+-   2019-10-15 release candidate for version 1.0.301 build 1916 Vir Desai `3dd78d5c`
+
+## Release Candidate version 1.0.301 build 1916
+
+-   2019-10-15 Merge pull request #800 from all-social/hotfix/AN-824/notification-feed-order Vir Desai `d64b53b2`
+-   2019-10-15 Fixed notification feed order ninjasoftdev `2240af97`
+-   2019-10-15 Merge pull request #798 from all-social/hotfix/AN-828/become-to-be Vir Desai `2d66401e`
+-   2019-10-14 AN-828: change text become to be on edit profile screen Vir Desai `fb9ece0d`
+-   2019-10-14 release candidate for version 1.0.301 build 1915 Vir Desai `ee4b4812`
+
+## Release Candidate version 1.0.301 build 1915
+
+-   2019-10-14 Merge pull request #796 from all-social/remove-branch-debug Vir Desai `7deaef53`
+-   2019-10-14 Merge branch 'release/1.0.301' of https://github.com/all-social/mobile into release/1.0.301 Dan Carbonell `f32677bb`
+-   2019-10-14 removed debugging from production code Dan Carbonell `fa253807`
+-   2019-10-14 Merge pull request #795 from all-social/hotfix/AN-805+AN-806+AN-822/dob Vir Desai `baed118d`
+-   2019-10-14 remove unused DatePicker code and packages for it Vir Desai `597dcf25`
+-   2019-10-14 AN-805, AN-806, AN-822: removing date of birth field from edit profile screen, adding age consent text, updating terms.. Vir Desai `e08b00e8`
+-   2019-10-11 release candidate for version 1.0.301 build 1914 Vir Desai `62afed10`
+
+## Release Candidate version 1.0.301 build 1914
+
+-   2019-10-11 Merge pull request #791 from all-social/branch-appdelegate-update Vir Desai `8929e558`
+-   2019-10-11 revert appdelegate change Dan Carbonell `af068096`
+-   2019-10-11 Merge pull request #790 from all-social/hotfix/AN-821/suggestions Vir Desai `dbf50533`
+-   2019-10-11 Fixed suggestions shows up twice kostetskydmitry `573bc1d1`
+-   2019-10-11 Merge pull request #789 from all-social/branch-appdelegate-update Vir Desai `4fa8790a`
+-   2019-10-11 appdelegate update Dan Carbonell `e11e3f4d`
+-   2019-10-11 Merge pull request #788 from all-social/hotfix/AN-812+AN-813+AN-814+AN-815+AN-816+AN-817+AN-818+AN-820/bugs Vir Desai `6d803275`
+-   2019-10-11 quick fix Vir Desai `a5401cd4`
+-   2019-10-11 Fixed mirror issues ninjasoftdev `f751a268`
+-   2019-10-11 Fixed mirror bugs ninjasoftdev `a32836a8`
+-   2019-10-11 Fixed notification feed ninjasoftdev `07be409b`
+-   2019-10-10 release candidate for version 1.0.301 build 1912 Vir Desai `9c9dacdb`
+
+## Release Candidate version 1.0.301 build 1912
+
+-   2019-10-10 Merge pull request #785 from all-social/hotfix/AN-273,AN-810/birthdate-picker-ios-dark-mode Vir Desai `f275d8cf`
+-   2019-10-10 Merge pull request #783 from all-social/hotfix/AN-808/who-to-follow Vir Desai `c1699ca9`
+-   2019-10-10 Merge pull request #784 from all-social/hotfix/AN-807/ios-video Vir Desai `a081c576`
+-   2019-10-10 removing config negation flag Vir Desai `583a35ee`
+-   2019-10-10 adding required param to turn off eventEmitter Vir Desai `81a10dbc`
+-   2019-10-10 AN-273,AN-810: adding dark mode subscription checker for date picker on edit profile birthday field Vir Desai `d1f1bccd`
+-   2019-10-10 Removed checking url in webview kostetskydmitry `18fc0f59`
+-   2019-10-10 Fixed not able to watch video in app ios kostetskydmitry `ff22d2ca`
+-   2019-10-09 Fixed Who to follow suggestions ninjasoftdev `7a0e7b20`
+-   2019-10-09 release candidate for version 1.0.301 build 1911 Vir Desai `d54ae8ff`
+
+## Release Candidate version 1.0.301 build 1911
+
+-   2019-10-09 Merge pull request #781 from all-social/hotfix/branch-build Vir Desai `cdff8e06`
+-   2019-10-09 android branch patch Vir Desai `df7f717c`
+-   2019-10-09 Merge pull request #779 from all-social/feature/branch-mixpanel-android-debugging Vir Desai `b5bbe18c`
+-   2019-10-09 Merge pull request #780 from all-social/hotfix/AN-467/whats-happening Vir Desai `6355dcf4`
+-   2019-10-09 Merge pull request #778 from all-social/hotfix/AN-799/video-cuts-off Vir Desai `49f235af`
+-   2019-10-09 Merge pull request #777 from all-social/hotfix/AN-797/apple-ads Vir Desai `2a9eb95b`
+-   2019-10-09 branch java adjusts Dan Carbonell `04bb6549`
+-   2019-10-09 Fixed What's Happening Status Bar & Who To Follow Bar ninjasoftdev `f4726a20`
+-   2019-10-09 Merge branch 'develop' into feature/branch-mixpanel-android-debugging Dan Carbonell `3c9e2f1a`
+-   2019-10-09 adding branch/mixpanel debugging Dan Carbonell `8e16c8e6`
+-   2019-10-09 Fixed cutting the video off in Android kostetskydmitry `15d13f72`
+-   2019-10-10 Added apple search ads dmitryvko83 `051f4092`
+-   2019-10-08 Merge branch 'release/1.0.301' into develop Vir Desai `8f158d81`
+-   2019-10-08 release candidate for version 1.0.301 build 1910 Vir Desai `1af7ff54`
+
+## Release Candidate version 1.0.301 build 1910
+
+-   2019-10-08 Merge pull request #773 from all-social/hotfix/AN-788/post-modal-options-and-keyboard Vir Desai `f5a5971f`
+-   2019-10-08 Merge pull request #772 from all-social/hotfix/AN-795/profile-private-info-greyed-out Vir Desai `11e77c2a`
+-   2019-10-08 Merge pull request #771 from all-social/hotfix/AN-789,AN-790,AN-791/gesture-handler-crash Vir Desai `cd4dea7d`
+-   2019-10-08 AN-795: updating constant palette picker style for iOS and Android specific recommended styles from repo Vir Desai `eaed6bd8`
+-   2019-10-08 AN-789,AN-790,AN-791: importing react-native-gesture-handler at the top of the navigation creation to stop crashes on .. Vir Desai `96ed053c`
+-   2019-10-08 AN-788: adding logic around opening post footer options without keyboard and repeating experience Vir Desai `58fbb97a`
+-   2019-10-07 merge master Vir Desai `7e145589`
+-   2019-10-07 Merge pull request #764 from all-social/bug/remove-async-branch-code Vir Desai `57093296`
+-   2019-10-07 updated deep link routing to nav to profile content after web banner click Dan Carbonell `053322bc`
+-   2019-10-07 Merge pull request #763 from all-social/release/1.0.301 Vir Desai `5d89bc26`
+-   2019-10-07 release candidate for version 1.0.301 build 1909 Vir Desai `93b9630e`
+-   2019-10-07 begin routing for journey banners Dan Carbonell `5cfd6194`
+
+## CODEPUSH RELEASE v5 on version 1.0.300 build 1908
+
+-   2019-10-07 remove async branch code Dan Carbonell `7586f844`
+-   2019-10-04 Merge pull request #756 from all-social/hotfix/ASM-848/stop-emailing-on-update-and-branch-fix Vir Desai `cb1576bb`
+
+## Release Candidate version 1.0.301 build 1909
+
+-   2019-10-07 Merge pull request #761 from all-social/feature/ASM-838/about-us Vir Desai `594e3ffc`
+-   2019-10-08 Removed not used file dmitryvko83 `b496405d`
+-   2019-10-07 Merge pull request #760 from all-social/feature/ASM-836/gif-spacing Vir Desai `6e0c1af9`
+-   2019-10-07 Fixed mirror issues ninjasoftdev `586d391e`
+-   2019-10-07 Merge pull request #762 from all-social/feature/AN-276/auto-follow-increase Vir Desai `6a973085`
+-   2019-10-07 AN-276: created constant limit to bump the auto initial following number from 12 to 30 on new account creation Vir Desai `902fcdf5`
+-   2019-10-07 Merge branch 'develop' into feature/ASM-838/about-us Dmitry Kostetsky `639ed352`
+-   2019-10-07 Removed unecessary file dmitryvko83 `6ad04115`
+-   2019-10-06 Added 'rerender props to MasonryList ninjasoftdev `155e400e`
+-   2019-10-06 Merge pull request #759 from all-social/feature/ASM-595/clickable-timestamp Vir Desai `b35f460f`
+-   2019-10-05 ASM-595: make activity feed item timestamps clickable to open single post comment view by adding an onPress property Vir Desai `bb4aecdc`
+-   2019-10-04 Merge pull request #758 from all-social/feature/branch-event-logging Vir Desai `d4b65244`
+-   2019-10-04 Merge pull request #757 from all-social/hotfix/ASM-848/stop-emailing-on-update-and-branch-fix Vir Desai `50faf06d`
+-   2019-10-04 added null for branch universal object Dan Carbonell `372aa329`
+
+## CODEPUSH RELEASE v4 on version 1.0.300 build 1908
+
+-   2019-10-04 ASM-848: stripping out all key-value pairs which are not different from the stored user object on profile save. update.. Vir Desai `f10f899f`
+-   2019-10-03 Merge pull request #752 from all-social/hotfix/ASM-846/unable-to-edit-profile Vir Desai `1398a4cd`
+
+## CODEPUSH RELEASE v3 on version 1.0.300 build 1908
+
+-   2019-10-03 ASM-846: removing images from update profile payload if empty. codepush deployment Vir Desai `85a0e33c`
+-   2019-10-02 Merge pull request #750 from all-social/hotfix/ASM-845/remove-ios-landscape Vir Desai `12ab70a6`
+
+## CODEPUSH RELEASE v2 on version 1.0.300 build 1908
+
+-   2019-10-02 ASM-845: locking ios device orientation to portrait mode. codepush deployment Vir Desai `54324688`
+-   2019-10-01 Merge pull request #747 from all-social/hotfix/ASM-842/incomplete-error-message-on-android-login Vir Desai `d1e94c7b`
+
+## CODEPUSH RELEASE v1 on version 1.0.300 build 1908
+
+-   2019-10-01 ASM-842: login saga alert making failed error message go to the message instead of title prop. codepush deployment Vir Desai `3e5884e2`
+-   2019-09-30 Merge branch 'release/1.0.300'
+
+## Release Candidate version 1.0.300 build 1908
+
+-   2019-09-26 Merge pull request #742 from all-social/hotfix/set-braze kostetskydmitry `8a6d8af`
+-   2019-09-26 Fixed setting the infos to braze dmitryvko83 `7d017c`
+-   2019-09-26 release candidate for version 1.0.300 build 1907 Vir Desai `14dd0d2`
+
+## Release Candidate version 1.0.300 build 1907
+
+-   2019-09-26 Merge pull request #741 from all-social/hotfix/ASM-830/dark-mode-auth-inputs Vir Desai `255aaf3e`
+-   2019-09-26 Merge pull request #738 from all-social/hotfix/set-braze Vir Desai `6fc38a54`
+-   2019-09-26 ASM-830: adding default normal text input styling Vir Desai `14f7f1d5`
+-   2019-09-26 Added email and username to braze when signing up ninjasoftdev `73f7dd11`
+-   2019-09-26 release candidate for version 1.0.300 build 1906 Vir Desai `d139955e`
+
+## Release Candidate version 1.0.300 build 1906
+
+-   2019-09-26 Merge pull request #736 from all-social/hotfix/ASM-812+ASM-823+ASM-828/release-bugs Vir Desai `62243c69`
+-   2019-09-26 ASM-812: updating character limit to 3000 to match the backend API limit which was causing posts to not appear and cha.. Vir Desai `fcb0aee0`
+-   2019-09-25 release candidate for version 1.0.300 build 1905 Vir Desai `7bc2d2c2`
+
+## Release Candidate version 1.0.300 build 1905
+
+-   2019-09-25 Merge pull request #731 from all-social/hotfix/disable-instagram-video Vir Desai `79150a66`
+-   2019-09-25 Merge pull request #729 from all-social/hotfix/ASM-822/post-link-crashing Vir Desai `a7d93c86`
+-   2019-09-25 ASM-822: checking values of links before pulling URL Vir Desai `beb4347f`
+-   2019-09-25 Fixed config file kostetskydmitry `ee4ba9c8`
+-   2019-09-25 Disabled instagram video kostetskydmitry `454a3dff`
+-   2019-09-25 release candidate for version 1.0.300 build 1904 Vir Desai `40af1fc0`
+
+## Release Candidate version 1.0.300 build 1904 (and previous)
+
+-   2019-09-24 fixing config Vir Desai `863c0e67`
+-   2019-09-24 Added all sources kostetskydmitry `25557392`
+-   2019-09-24 Added app.js file kostetskydmitry `64e1227f`
+-   2019-09-24 Removed all sources kostetskydmitry `88a0e74f`
+-   2019-09-24 Fixed mirror issues kostetskydmitry `ca48e7af`
+-   2019-09-24 Merge branch 'develop' of github.com:all-social/mobile into develop kostetskydmitry `c371cd95`
+-   2019-09-24 Fixed mirror issues kostetskydmitry `95b3b2bc`
+-   2019-09-24 removing old console log Vir Desai `dc42e17a`
+-   2019-09-24 Added missing branch.json file kostetskydmitry `1dea8f5c`
+-   2019-09-24 Update file for settings kostetskydmitry `30d54245`
+-   2019-09-24 Update to New Build kostetskydmitry `bb0b271a`
+-   2019-07-12 Merge pull request #571 from all-social/bug/push-notification-ios Dmitry Kostetsky `36b8ebb7`
+-   2019-07-12 Fixed push notification for iOS kostetskydmitry `430c9499`
+-   2019-07-12 Merge pull request #568 from all-social/bug/push-notification-ios Dmitry Kostetsky `113260dd`
+-   2019-07-12 Fixed push notification for ios kostetskydmitry `a1d043cd`
+-   2019-07-12 Merge pull request #567 from all-social/bug/push-notification dmitryvko83 `3370bb0f`
+-   2019-07-12 Fixed doesn't work the push notification at first after updated dmitryvko83 `6554c956`
+-   2019-07-10 Merge pull request #563 from all-social/bug/comments Dmitry Kostetsky `3a614aed`
+-   2019-07-10 Fixed loading comments at first kostetskydmitry `b94257eb`
+-   2019-07-10 Merge pull request #561 from all-social/bug/deleted-post Dmitry Kostetsky `91041283`
+-   2019-07-10 Fixed deleted post kostetskydmitry `87dafdf2`
+-   2019-07-09 Merge pull request #559 from all-social/bug/order-content-post Dmitry Kostetsky `c61a56f2`
+-   2019-07-08 Fixed break between the photo and the link ninjasoftdev `bcd8b390`
+-   2019-07-09 Merge pull request #558 from all-social/bug/new-post-modal Dmitry Kostetsky `cf40832d`
+-   2019-07-09 new post modal - when uploading any content it covers the text area on Android kostetskydmitry `04174d62`
+-   2019-07-09 Merge pull request #557 from all-social/bug/push-notification-clicking Dmitry Kostetsky `8dd1c9cd`
+-   2019-07-09 Merge pull request #556 from all-social/bug/profile-picture-crash Dmitry Kostetsky `c05b021b`
+-   2019-07-09 Merge pull request #555 from all-social/bug/progile-picture Dmitry Kostetsky `f879dcd8`
+-   2019-07-09 Merge pull request #554 from all-social/bug/update-verbiage-repost Dmitry Kostetsky `b33eb0d0`
+-   2019-07-09 Push Notifications - clicking on them takes you to a weird web view first dmitryvko83 `f48db4d0`
+-   2019-07-08 Profile Picture - clicking on a user who doesn't have a profile picture set crashes the app ninjasoftdev `4f1525c8`
+-   2019-07-08 Profile pictures - new users receive the same silhouette that web does ninjasoftdev `7658f8c6`
+-   2019-07-08 Repost - update verbiage to mirror web ninjasoftdev `d3259a1c`
+-   2019-07-08 Repost - update verbiage to mirror web ninjasoftdev `9fc0d9a2`
+-   2019-07-08 Merge pull request #552 from all-social/bug/likes Dmitry Kostetsky `6dd5f9bf`
+-   2019-07-08 Merge pull request #551 from all-social/bug/hashtags Dmitry Kostetsky `14c7bfaf`
+-   2019-07-07 Fixed likes screen ninjasoftdev `dbdd7ea1`
+-   2019-07-07 Fixed hashtags screen ninjasoftdev `ff9fbb37`
+-   2019-07-07 Merge pull request #549 from all-social/bug/android-proguard Dmitry Kostetsky `1fb3c55e`
+-   2019-07-08 Fixed proguard for Glide on android dmitryvko83 `79c237fb`
+-   2019-07-07 Merge pull request #548 from all-social/bug/andorid-memory-issues Dmitry Kostetsky `277626cc`
+-   2019-07-07 Merge pull request #547 from all-social/bug/followings-loading Dmitry Kostetsky `852ab1b4`
+-   2019-07-07 Merge pull request #545 from all-social/bug/feed-empty-image Dmitry Kostetsky `644a622b`
+-   2019-07-08 Fixed memory issues for android dmitryvko83 `a46e5dbb`
+-   2019-07-07 Fixed loading more on followings ninjasoftdev `54520785`
+-   2019-07-07 Merge pull request #546 from all-social/bug/followers-likes Dmitry Kostetsky `9ecf3f31`
+-   2019-07-07 Fixed mirror issues kostetskydmitry `588ca0bf`
+-   2019-07-07 Fixed empty images on feed dmitryvko83 `e9dd70c9`
+-   2019-07-07 Merge pull request #544 from all-social/bug/likes-screen-ui Dmitry Kostetsky `33f3b146`
+-   2019-07-07 Fixed LikesScreen UIs kostetskydmitry `b6a2663c`
+-   2019-07-06 Merge pull request #543 from all-social/bug/profile-bottom-space Dmitry Kostetsky `3c5b6b74`
+-   2019-07-05 Fixed profile bottom space kostetskydmitry `c72e7de4`
+-   2019-07-05 Merge pull request #538 from all-social/feature/in-app-messaging Dmitry Kostetsky `5aa5dd4e`
+-   2019-07-05 Merge pull request #537 from all-social/new-reaction-icon Dmitry Kostetsky `97059e70`
+-   2019-07-05 Merge branch 'master' into new-reaction-icon Dmitry Kostetsky `0d17f134`
+-   2019-07-05 Fixed activity card UI ninjasoftdev `c4d56e92`
+-   2019-07-04 Merge pull request #540 from all-social/feature/profile-picture-enlarge Dmitry Kostetsky `b9681656`
+-   2019-07-04 Merge pull request #541 from all-social/bug/adding-link Dmitry Kostetsky `b0f47d2b`
+-   2019-07-04 Fixed when adding a URL in the link area and then saving, the URL stays in the post modal kostetskydmitry `d0b76031`
+-   2019-07-05 Added when clicking on users profile pictures have them enlarge dmitryvko83 `00c1f2d0`
+-   2019-07-04 Merge pull request #539 from all-social/bug/space-image-text Dmitry Kostetsky `8e76dc98`
+-   2019-07-04 Fixed give more space between image and text area kostetskydmitry `5927920f`
+-   2019-07-04 Add In-App Messaging kostetskydmitry `19376aa1`
+-   2019-07-03 [new post] the order of the URL vs. gif vs. picture - should be determined by when you put it in ninjasoftdev `68796f69`
+-   2019-07-03 edited share icon for user image ninjasoftdev `81e5a97d`
+-   2019-07-03 added counter for comments ninjasoftdev `b0582dc8`
+-   2019-07-03 Merge branch 'like-screen' of https://github.com/all-social/mobile into new-reaction-icon ninjasoftdev `150c0a17`
+-   2019-07-03 Merge branch 'master' of https://github.com/all-social/mobile into new-reaction-icon ninjasoftdev `89178403`
+-   2019-07-03 UI updates: icons on posts ninjasoftdev `de70537a`
+-   2019-07-03 Merge pull request #535 from all-social/bug/hash-user-tags Dmitry Kostetsky `00e2caec`
+-   2019-07-03 Fixed hash and user tags kostetskydmitry `9a1723bc`
+-   2019-07-03 Merge pull request #533 from all-social/bug/tagging-users Dmitry Kostetsky `b6555beb`
+-   2019-07-02 Fixed tagging users kostetskydmitry `c0afc777`
+-   2019-07-02 Merge pull request #530 from all-social/bug/forgot-password Dmitry Kostetsky `65f7113c`
+-   2019-07-02 Fixed resetting password from the link kostetskydmitry `96a4be6b`
+-   2019-07-02 Merge pull request #529 from all-social/bug/paragraphs-posts Dmitry Kostetsky `40db1129`
+-   2019-07-01 Fixed paragraphs issue in posts kostetskydmitry `f56f18a3`
+-   2019-07-01 like screen ninjasoftdev `2887ef8c`
+-   2019-07-01 Merge pull request #527 from all-social/bug/confirmation-discarding-post Dmitry Kostetsky `4e5357c3`
+-   2019-07-01 Fixed confirmation on discarding post kostetskydmitry `a1c813a9`
+-   2019-07-01 Merge pull request #526 from all-social/bug/invite-friends Dmitry Kostetsky `cdd62456`
+-   2019-07-01 Fixed invite friends issues - when users go to message or email firends, the app will crash sometimes kostetskydmitry `8cbbbbd3`
+-   2019-07-01 Merge pull request #520 from all-social/bug/update-ui-create-post Dmitry Kostetsky `0a852700`
+-   2019-07-01 Merge pull request #516 from all-social/menu-bar-comment Dmitry Kostetsky `f252c00c`
+-   2019-07-01 Merge pull request #523 from all-social/bug/invite-typing-order Dmitry Kostetsky `215721b6`
+-   2019-07-01 Fixed user typing order in invite firends SMS kostetskydmitry `2e7bf363`
+-   2019-07-01 Merge pull request #522 from all-social/bug/hashtags Dmitry Kostetsky `54f54228`
+-   2019-06-30 Fixed hashtags search kostetskydmitry `dff8a361`
+-   2019-06-30 Merge pull request #521 from all-social/bug/push-notification-android dmitryvko83 `902864db`
+-   2019-07-01 Fixed push notification issues on android dmitryvko83 `d4541213`
+-   2019-06-28 Updated UI for create post kostetskydmitry `40d5e78f`
+-   2019-06-28 Merge pull request #518 from all-social/bug/like-unlike-issue Dmitry Kostetsky `97acb850`
+-   2019-06-28 Fixed like and unlike issues kostetskydmitry `2b72f73a`
+-   2019-06-28 revert commit kostetskydmitry `e2138747`
+-   2019-06-28 New menu bar stays with comment details ninjasoftdev `a198edc9`
+-   2019-06-28 reverted commit ninjasoftdev `a6aadd94`
+-   2019-06-28 Merge pull request #515 from all-social/banner-issue ninjasoftdev `24a94ff4`
+-   2019-06-28 fixed Notification feed issue ninjasoftdev `a35dc527`
+-   2019-06-28 App Banner Issue ninjasoftdev `c5712856`
+-   2019-06-28 Merge pull request #514 from all-social/bug/confirmation-discarding-post Dmitry Kostetsky `9f18ccfb`
+-   2019-06-28 Add confirmation on discarding post kostetskydmitry `1b91ffe9`
+-   2019-06-28 Merge pull request #513 from all-social/menu-bar ninjasoftdev `3d1927c6`
+-   2019-06-28 New menu bar stays with comment details ninjasoftdev `3b31ad50`
+-   2019-06-28 Merge pull request #512 from all-social/bug/app-crash ninjasoftdev `055e3bbc`
+-   2019-06-28 fixed app crashes ninjasoftdev `04ea30a1`
+-   2019-06-28 Merge pull request #511 from all-social/bug/app-crash ninjasoftdev `dc2c314b`
+-   2019-06-28 fixed app crashes ninjasoftdev `8a30c6d6`
+-   2019-06-27 Merge pull request #509 from all-social/bug/push-notification-first-load-app Dmitry Kostetsky `c8a6556e`
+-   2019-06-27 Merge branch 'master' into bug/push-notification-first-load-app Dmitry Kostetsky `c535354f`
+-   2019-06-27 Merge pull request #507 from all-social/bug/push-notification-comments Dmitry Kostetsky `3458d267`
+-   2019-06-28 Fixed push notification issue dmitryvko83 `4fbd23f4`
+-   2019-06-28 Fixing it's not working correctly on android when the app killed and clicking the push notification dmitryvko83 `6c512b26`
+-   2019-06-27 Merge pull request #508 from all-social/new-activity ninjasoftdev `4c16a20d`
+-   2019-06-27 new activity banner ninjasoftdev `288f76b7`
+-   2019-06-27 sort invite users ninjasoftdev `a7ccba3f`
+-   2019-06-27 on android a brand new post says 'in a few seconds' ninjasoftdev `e973f9bf`
+-   2019-06-27 Fixed loading comments when clicking push notification dmitryvko83 `b8e34932`
+-   2019-06-27 new activity banner ninjasoftdev `565f3cfe`
+-   2019-06-26 Merge pull request #506 from all-social/bug/slow-like Dmitry Kostetsky `0c76e57d`
+-   2019-06-26 Fixed linking posts and comments is slow kostetskydmitry `f81abb4b`
+-   2019-06-26 Merge pull request #505 from all-social/bug/ios-deeplink Dmitry Kostetsky `871e8c68`
+-   2019-06-26 Fixed deeplink and main thread issue dmitryvko83 `c7ac0e2b`
+-   2019-06-26 Merge pull request #504 from all-social/reset-notification ninjasoftdev `2ed6f511`
+-   2019-06-26 Notification feed issue ninjasoftdev `3a03bbcc`
+-   2019-06-26 Move all documentation from root of the project to GitHub Wiki Dmitry Kostetsky `52ee22fb`
+-   2019-06-26 Merge pull request #499 from all-social/mixpanel-target Dmitry Kostetsky `911dfcfc`
+-   2019-06-25 Merge pull request #501 from all-social/bug/push-notification-android Dmitry Kostetsky `1dfc60af`
+-   2019-06-26 Fixed push notification issue for android dmitryvko83 `62ff0a6a`
+-   2019-06-25 Merge pull request #500 from all-social/bug/comment-user-tagging Dmitry Kostetsky `f0f0c52d`
+-   2019-06-25 Merge pull request #497 from all-social/bug/autocomplete-scroll-android Dmitry Kostetsky `61e8475b`
+-   2019-06-25 Fixed mirror bugs dmitryvko83 `8c504d05`
+-   2019-06-25 Fixed tagging users in a comment: broken dmitryvko83 `3de3b2db`
+-   2019-06-25 update mixpanel with target_user Amin Mahboubi `0e6de65b`
+-   2019-06-25 Merge pull request #498 from all-social/major-crashes ninjasoftdev `17574a7c`
+-   2019-06-25 small fix ninjasoftdev `8d3b336d`
+-   2019-06-25 fixed notifications ninjasoftdev `3f6d5f2b`
+-   2019-06-25 fixed liked post error ninjasoftdev `a2cc7c63`
+-   2019-06-25 Fixed autocomplete scroll issue for android dmitryvko83 `5ef10b44`
+-   2019-06-24 Merge pull request #495 from all-social/bug/android-push-notification dmitryvko83 `bfaf4e39`
+-   2019-06-25 Fixed mirror issues for android dmitryvko83 `a213146e`
+-   2019-06-24 Merge pull request #492 from all-social/feature/new-timeline ninjasoftdev `f63027e1`
+-   2019-06-24 removed loader on profile screen ninjasoftdev `a9c570d0`
+-   2019-06-24 Merge pull request #409 from all-social/feature/new-timeline ninjasoftdev `010792d5`
+-   2019-06-24 Merge branch 'master' of https://github.com/all-social/mobile into feature/new-timeline ninjasoftdev `cb606118`
+-   2019-06-24 added upload images ninjasoftdev `fea4a48e`
+-   2019-06-24 added upload images ninjasoftdev `5e60ac9c`
+-   2019-06-23 Merge pull request #479 from all-social/bug/og-backspace-issue Dmitry Kostetsky `d901fe59`
+-   2019-06-23 Fixed mirror bugs kostetskydmitry `3ba9809b`
+-   2019-06-23 Merge pull request #478 from all-social/bug/og-backspace-issue Dmitry Kostetsky `68ba1c47`
+-   2019-06-23 Fixed mirror bugs kostetskydmitry `18834317`
+-   2019-06-23 Fixed mirror bugs kostetskydmitry `5e1e2e7f`
+-   2019-06-23 Fixed mirror bugs kostetskydmitry `af703861`
+-   2019-06-23 Fixed og backspace issue kostetskydmitry `821d6793`
+-   2019-06-21 Merge pull request #476 from all-social/bug/android-release Dmitry Kostetsky `013ca26b`
+-   2019-06-22 Fixed mirror bugs dmitryvko83 `4fb50440`
+-   2019-06-22 Fixed mirror bugs dmitryvko83 `deffe75c`
+-   2019-06-21 Merge pull request #474 from all-social/bug/android-release Dmitry Kostetsky `9ca3824e`
+-   2019-06-21 Fixed mirror issues dmitryvko83 `6aa44601`
+-   2019-06-21 Fixed some gradle dmitryvko83 `68b2bcf6`
+-   2019-06-21 Fixed some gradle dmitryvko83 `7e8a915a`
+-   2019-06-21 Merge pull request #471 from all-social/bug/push_notification_android Dmitry Kostetsky `c0a2221e`
+-   2019-06-21 Fixed mirror bugs dmitryvko83 `fcc91b83`
+-   2019-06-21 remove activity component ninjasoftdev `c1700d8e`
+-   2019-06-21 added action for realtime update hashtag screen ninjasoftdev `e8ad7d98`
+-   2019-06-21 Merge branch 'master' of https://github.com/all-social/mobile into feature/new-timeline ninjasoftdev `3f2c67cf`
+-   2019-06-21 added action for realtime update selected profile ninjasoftdev `3a4f3da8`
+-   2019-06-21 Merge pull request #469 from all-social/bug/push_notification Dmitry Kostetsky `ba70ecb3`
+-   2019-06-21 Merge branch 'master' into bug/push_notification Dmitry Kostetsky `65b98a0f`
+-   2019-06-21 Fixed mirror bugs for push notification dmitryvko83 `66e565db`
+-   2019-06-21 Fixed mirror bugs for push notification dmitryvko83 `f93bce15`
+-   2019-06-21 Fixed mirror bugs for push notification dmitryvko83 `2a641bd6`
+-   2019-06-20 Merge branch 'master' of https://github.com/all-social/mobile into feature/new-timeline ninjasoftdev `58c25429`
+-   2019-06-20 fetch comments ninjasoftdev `854ac098`
+-   2019-06-20 fixed reply to ninjasoftdev `011d8cfe`
+-   2019-06-20 Merge pull request #467 from all-social/bug/PN-badge Dmitry Kostetsky `98c3d874`
+-   2019-06-20 Fixed mirror bugs kostetskydmitry `bcc9bed9`
+-   2019-06-20 Merge pull request #466 from all-social/bug/PN-badge Dmitry Kostetsky `2df9f721`
+-   2019-06-20 Fixed mirror bugs for push notification kostetskydmitry `4fa7ace9`
+-   2019-06-20 removed component comment box ninjasoftdev `cf5f5643`
+-   2019-06-20 added reaction for all selected and hashtag feed ninjasoftdev `a75fb402`
+-   2019-06-20 Merge pull request #464 from all-social/bug/pushnotification dmitryvko83 `12c2680b`
+-   2019-06-20 Fix notification feed dmitryvko83 `360289e7`
+-   2019-06-20 fixed push notification for production dmitryvko83 `9f8b5447`
+-   2019-06-19 added fetch activities for hashtag screen ninjasoftdev `93132b33`
+-   2019-06-19 deleted shared button on timeline scree ninjasoftdev `1237cd4d`
+-   2019-06-19 Merge branch 'master' of https://github.com/all-social/mobile into feature/new-timeline ninjasoftdev `4342ed88`
+-   2019-06-19 added reaction for like/unlike comment ninjasoftdev `6893fbf7`
+-   2019-06-19 Fixed ios push notification in staging dmitryvko83 `e65c3398`
+-   2019-06-18 Merge pull request #463 from all-social/master Dmitry Kostetsky `921ac318`
+-   2019-06-18 Merge pull request #462 from all-social/bug/branch.json Dmitry Kostetsky `af25a3af`
+-   2019-06-18 Fixed branch.json file kostetskydmitry `0e12eaf6`
+-   2019-06-18 Merge pull request #461 from all-social/master Dmitry Kostetsky `faae60aa`
+-   2019-06-18 Merge pull request #460 from all-social/bug/branch.json Dmitry Kostetsky `bad23ba2`
+-   2019-06-18 Fixed branch.json file kostetskydmitry `b87e44b5`
+-   2019-06-18 Merge pull request #459 from all-social/master Dmitry Kostetsky `5c544cb3`
+-   2019-06-18 Merge pull request #458 from all-social/bug/not-support-androidx Dmitry Kostetsky `eecf8beb`
+-   2019-06-18 Fixed for not supporting androidx kostetskydmitry `94381979`
+-   2019-06-18 Merge branch 'master' of https://github.com/all-social/mobile into feature/new-timeline ninjasoftdev `2c3e8ec8`
+-   2019-06-18 added reaction icon component ninjasoftdev `40f69e1d`
+-   2019-06-18 debounced reaction ninjasoftdev `2261716f`
+-   2019-06-18 added catch error for reaction ninjasoftdev `30a413bb`
+-   2019-06-18 deleted single post and added reaction for modal image ninjasoftdev `6ef367b0`
+-   2019-06-18 delete post ninjasoftdev `7ddb3672`
+-   2019-06-17 Merge pull request #457 from all-social/bug/social-share Dmitry Kostetsky `7af17d9d`
+-   2019-06-17 Fixed social sharing kostetskydmitry `a5e3d36e`
+-   2019-06-16 added like comment reaction ninjasoftdev `d24046d8`
+-   2019-06-16 changed origin reactions ninjasoftdev `09490d2a`
+-   2019-06-14 added comment on reducer ninjasoftdev `4dd4e9a1`
+-   2019-06-13 added timeline for selected profile ninjasoftdev `895d0555`
+-   2019-06-13 Merge branch 'feature/new-timeline' of https://github.com/all-social/mobile into feature/new-timeline ninjasoftdev `6d538109`
+-   2019-06-13 added failure actions for fetch activities ninjasoftdev `0347a72c`
+-   2019-06-13 WIP: add comment handler kostetskydmitry `e28166ec`
+-   2019-06-13 fix conflicts kostetskydmitry `c8902bf5`
+-   2019-06-13 WIP: added add reaction actions; changed comments list in single screen kostetskydmitry `e4b06103`
+-   2019-06-13 Merge pull request #455 from all-social/master dmitryvko83 `9833210e`
+-   2019-06-13 Merge pull request #454 from all-social/bug/invite-link dmitryvko83 `9250c772`
+-   2019-06-13 Fixed invite links dmitryvko83 `d12490eb`
+-   2019-06-12 Merge pull request #453 from all-social/master dmitryvko83 `bfe190ef`
+-   2019-06-12 Merge pull request #452 from all-social/bug/messageing-cutoff dmitryvko83 `b1b02f3c`
+-   2019-06-12 Merge pull request #451 from all-social/bug/keyboard-popup dmitryvko83 `0b4b4454`
+-   2019-06-13 Fixed change password alert: messaging gets cut off dmitryvko83 `8879a053`
+-   2019-06-13 Fixed Keyboard doesn't pop up on android dmitryvko83 `721d495d`
+-   2019-06-12 added profile feed ninjasoftdev `0c46b858`
+-   2019-06-12 deleted activity ninjasoftdev `242628f6`
+-   2019-06-12 add toggle for reshare action ninjasoftdev `07f89059`
+-   2019-06-12 Merge pull request #450 from all-social/master dmitryvko83 `fa789552`
+-   2019-06-12 Merge pull request #449 from all-social/bug/paste-text dmitryvko83 `e2a53081`
+-   2019-06-12 Fixed android can't paste text in a new post dmitryvko83 `7559d50c`
+-   2019-06-11 Merge pull request #448 from all-social/bug/repost-linecolor dmitryvko83 `e67d0f96`
+-   2019-06-12 Change bottom line color for repost dmitryvko83 `7f1910a7`
+-   2019-06-11 Merge pull request #447 from all-social/bug/change-password dmitryvko83 `a492f156`
+-   2019-06-12 Add change password alert successful dmitryvko83 `5114667e`
+-   2019-06-10 Merge pull request #446 from all-social/release/1.0.221 Dmitry Kostetsky `d76592e9`
+-   2019-06-10 Merge pull request #445 from all-social/develop/1.0.221 Dmitry Kostetsky `e6809eac`
+-   2019-06-10 Merge pull request #444 from all-social/master Dmitry Kostetsky `2d812555`
+-   2019-06-10 Merge pull request #441 from all-social/feature/new-icons Dmitry Kostetsky `b30fdfa9`
+-   2019-06-11 Fix iOS typing post issue dmitryvko83 `e8dbed4f`
+-   2019-06-10 Merge pull request #443 from all-social/develop/1.0.221 dmitryvko83 `91158366`
+-   2019-06-10 Merge pull request #442 from all-social/feature/new-icons dmitryvko83 `af8f9d3c`
+-   2019-06-10 decrease \_JAVA_OPTIONS Dmitry Kostetsky `6ccde3cf`
+-   2019-06-07 Fix changing password whthing edit profile - log out dmitryvko83 `380960bf`
+-   2019-06-07 Merge branch 'feature/new-timeline' of https://github.com/all-social/mobile into feature/new-timeline ninjasoftdev `7a0f482d`
+-   2019-06-07 multiple eventemitter ninjasoftdev `4758b2b2`
+-   2019-06-07 Refactor SinglePost screen Dmitry Kostetsky `47030425`
+-   2019-06-07 Fix the issue with checking own_reaction length remove console.log() Dmitry Kostetsky `d5cd6444`
+-   2019-06-07 Rename Reaction action Dmitry Kostetsky `ef717482`
+-   2019-06-07 Fix minor bug dmitryvko83 `d96ef19a`
+-   2019-06-06 Added hamburger menu and Edit Profile button in Profile Screen and Give bigger space for typing post dmitryvko83 `d7678d36`
+-   2019-06-05 reducer for remove reaction ninjasoftdev `14dd8d88`
+-   2019-06-05 Added removing reaction Dmitry Kostetsky `f4bae8c4`
+-   2019-06-05 reducer for add reaction ninjasoftdev `f0394fa2`
+-   2019-06-05 Added possibility for Like Reaction Dmitry Kostetsky `937944c4`
+-   2019-06-05 Merge remote-tracking branch 'origin/master' into feature/new-timeline Dmitry Kostetsky `5d3a87df`
+-   2019-06-05 Merge pull request #417 from all-social/feature/share Dmitry Kostetsky `07ed2a71`
+-   2019-06-05 repost for android ninjasoftdev `efeebdf6`
+-   2019-06-05 repost new design ninjasoftdev `cd17ef54`
+-   2019-06-05 Merge branch 'master' of https://github.com/all-social/mobile into feature/share ninjasoftdev `91d385df`
+-   2019-06-04 Added a new icons and new Bottom Bar Navigator Dmitry Kostetsky `6480b0de`
+-   2019-06-04 Merge remote-tracking branch 'origin/master' into feature/new-timeline Dmitry Kostetsky `1cf2a6fe`
+-   2019-06-04 Merge pull request #440 from all-social/release/1.0.220 Dmitry Kostetsky `64a6a293`
+-   2019-06-04 Merge pull request #439 from all-social/develop/1.0.220 Dmitry Kostetsky `69a1b2be`
+-   2019-06-04 Merge pull request #438 from all-social/master Dmitry Kostetsky `94595a5b`
+-   2019-06-04 Change splashscreen images for android Dmitry Kostetsky `2977cecb`
+-   2019-06-04 Merge pull request #437 from all-social/bug/uploads-image Dmitry Kostetsky `1fd3f40a`
+-   2019-06-04 unable to upload screen shots and PNGs - new post ninjasoftdev `211b0a50`
+-   2019-06-03 Merge pull request #436 from all-social/release/1.0.220 Dmitry Kostetsky `1494d077`
+-   2019-06-03 Merge pull request #435 from all-social/develop/1.0.220 Dmitry Kostetsky `97b3ab59`
+-   2019-06-03 Merge pull request #434 from all-social/master Dmitry Kostetsky `f8037ba9`
+-   2019-06-03 Change splashscreen images for iOS Dmitry Kostetsky `4976e65d`
+-   2019-06-03 Merge pull request #433 from all-social/bug/followers Dmitry Kostetsky `b5bd5254`
+-   2019-06-03 Follower count - stopped at 9k ninjasoftdev `0766b6c6`
+-   2019-06-03 Merge pull request #432 from all-social/bug/followers Dmitry Kostetsky `a8030e5e`
+-   2019-06-03 Follower count - stopped at 9k ninjasoftdev `b480f984`
+-   2019-06-03 Merge pull request #431 from all-social/bug/password Dmitry Kostetsky `a13cef77`
+-   2019-06-03 Follower count - stopped at 9k ninjasoftdev `8fc42748`
+-   2019-06-03 Allow users to pasted into password box ninjasoftdev `56921571`
+-   2019-06-02 Replace FollowersFormatter function to another implementation Dmitry Kostetsky `47259656`
+-   2019-06-02 WIP: Trying with Realtime updates Dmitry Kostetsky `95ef3a83`
+-   2019-05-31 repost new design ninjasoftdev `786e73e3`
+-   2019-05-31 Refactor GetStream Service for using both REST and JS clients Dmitry Kostetsky `f0ddedf6`
+-   2019-05-31 Add checking for "next" request Dmitry Kostetsky `631e83bb`
+-   2019-05-31 Timeline with pagination Dmitry Kostetsky `ea532e63`
+-   2019-05-31 Install query-string for URI parsing Dmitry Kostetsky `412e3891`
+-   2019-05-31 Merge branch 'master' of https://github.com/all-social/mobile into feature/share ninjasoftdev `a34272a2`
+-   2019-05-30 Rearrange elements on the Timeline screen Dmitry Kostetsky `a4f069c0`
+-   2019-05-30 Merge remote-tracking branch 'origin/master' into feature/new-timeline Dmitry Kostetsky `8b48d7a0`
+-   2019-05-30 Replace JS Client to REST API for Timeline Dmitry Kostetsky `5c72429c`
+-   2019-05-30 Install Axios for REST API Dmitry Kostetsky `86ddd9b1`
+-   2019-05-30 Merge pull request #430 from all-social/release/1.0.219 Dmitry Kostetsky `5bf768a3`
+-   2019-05-30 Merge pull request #429 from all-social/develop/1.0.219 Dmitry Kostetsky `aa9a0ebd`
+-   2019-05-30 Merge pull request #428 from all-social/master Dmitry Kostetsky `c1807301`
+-   2019-05-30 Merge pull request #427 from all-social/bug/urls Dmitry Kostetsky `255d11c6`
+-   2019-05-30 Merge pull request #426 from all-social/bug/gif Dmitry Kostetsky `a2e8ee33`
+-   2019-05-30 Adding a link in the text area, and then deleting the link will then load two OGs. ninjasoftdev `5a39b883`
+-   2019-05-30 Gifs should be played continuously like in Feed ninjasoftdev `ea75942b`
+-   2019-05-30 Updated Podfile.lock Dmitry Kostetsky `c3f454ee`
+-   2019-05-30 Updated Podfile.lock Dmitry Kostetsky `d688dae7`
+-   2019-05-30 Merge remote-tracking branch 'origin/master' into feature/new-timeline Dmitry Kostetsky `1f8c12ae`
+-   2019-05-30 Merge pull request #425 from all-social/release/1.0.219 Dmitry Kostetsky `d4e77616`
+-   2019-05-29 Merge pull request #424 from all-social/develop/1.0.219 Dmitry Kostetsky `d566cdb1`
+-   2019-05-29 Merge pull request #423 from all-social/master Dmitry Kostetsky `9cfd3515`
+-   2019-05-29 Merge pull request #422 from all-social/bug/og Dmitry Kostetsky `6fdd6cd7`
+-   2019-05-29 fixed bug with attachment ninjasoftdev `95594e6c`
+-   2019-05-29 fixed bug with attachment ninjasoftdev `c7035ff8`
+-   2019-05-29 Performance enhancements, bug squashing, and new features! Dmitry Kostetsky `6e7d0a94`
+-   2019-05-29 Merge pull request #420 from all-social/master Dmitry Kostetsky `e81763bc`
+-   2019-05-29 Merge pull request #419 from all-social/bug/embedded-media Dmitry Kostetsky `4bff3e39`
+-   2019-05-29 Merge pull request #418 from all-social/bug/gifs Dmitry Kostetsky `6a78b058`
+-   2019-05-29 Embedded media doesn't show up on profile feed ninjasoftdev `d826f380`
+-   2019-05-29 New post features - gifs/link ninjasoftdev `bb570c2f`
+-   2019-05-29 new design sharing ninjasoftdev `456a4186`
+-   2019-05-29 Embedded media doesn't show up on profile feed ninjasoftdev `feb09bf9`
+-   2019-05-29 New post features - gifs/link ninjasoftdev `a6c1f463`
+-   2019-05-29 Fixed Flow warnings Dmitry Kostetsky `05ca6391`
+-   2019-05-29 Merge remote-tracking branch 'origin/master' into feature/new-timeline Dmitry Kostetsky `fcf14620`
+-   2019-05-28 Merge branch 'master' of https://github.com/all-social/mobile into feature/share ninjasoftdev `c2de2b7a`
+-   2019-05-28 new design for repost activity ninjasoftdev `8cc6ae34`
+-   2019-05-28 Merge pull request #416 from all-social/mixpanel-new-events Dmitry Kostetsky `85643160`
+-   2019-05-28 added new events for mixpanel ninjasoftdev `56d2d433`
+-   2019-05-28 added new events for mixpanel ninjasoftdev `a8431328`
+-   2019-05-27 changed \_JAVA_OPTIONS Dmitry Kostetsky `56e9268e`
+-   2019-05-27 changed \_JAVA_OPTIONS Dmitry Kostetsky `5cc99e66`
+-   2019-05-27 changed \_JAVA_OPTIONS Dmitry Kostetsky `25e78c53`
+-   2019-05-27 added GRADLE_OPTS. Dmitry Kostetsky `0a7bc08a`
+-   2019-05-27 Merge pull request #412 from all-social/master Dmitry Kostetsky `8bc035ba`
+-   2019-05-27 added GRADLE_OPTS. Dmitry Kostetsky `364dea43`
+-   2019-05-27 Merge pull request #406 from all-social/develop/1.0.219 ninjasoftdev `9c761668`
+-   2019-05-27 Merge pull request #411 from all-social/master ninjasoftdev `630aa212`
+-   2019-05-27 Merge pull request #410 from all-social/gifs ninjasoftdev `f8af863a`
+-   2019-05-27 small changes for design ninjasoftdev `9da51562`
+-   2019-05-27 new design for new post ninjasoftdev `2e648c50`
+-   2019-05-27 Posting two videos web, they don't show on the app ninjasoftdev `879b22f0`
+-   2019-05-27 Merge branch 'master' of https://github.com/all-social/mobile into gifs ninjasoftdev `5a5fa24b`
+-   2019-05-27 reset gifs array ninjasoftdev `c732fab1`
+-   2019-05-24 modal urls ninjasoftdev `ed494228`
+-   2019-05-24 Get all timeline items for next rendering without Stream client Dmitry Kostetsky `0524270f`
+-   2019-05-24 Merge pull request #405 from all-social/master Dmitry Kostetsky `ddc9b8ca`
+-   2019-05-24 Add missing import for getUser selector Delete unnecessary imports Dmitry Kostetsky `4f90b18c`
+-   2019-05-24 Merge pull request #383 from all-social/gifs Dmitry Kostetsky `efc6ca11`
+-   2019-05-24 Merge pull request #404 from all-social/mixpanel-profile Dmitry Kostetsky `0d13a057`
+-   2019-05-23 set mixpanel profile Amin Mahboubi `b15796ea`
+-   2019-05-23 Merge branch 'master' of https://github.com/all-social/mobile into gifs ninjasoftdev `e1a0ca4d`
+-   2019-05-23 fixed twice touch ninjasoftdev `6aa0f822`
+-   2019-05-23 select gif ninjasoftdev `3f4901b0`
+-   2019-05-23 added fetch more fifs ninjasoftdev `fe634106`
+-   2019-05-23 Merge pull request #403 from all-social/master Dmitry Kostetsky `3f5eff9a`
+-   2019-05-23 Update people.txt Dmitry Kostetsky `1917e5ef`
+-   2019-05-23 Merge pull request #401 from all-social/develop/1.0.219 Dmitry Kostetsky `538b7cab`
+-   2019-05-23 Merge pull request #400 from all-social/master Dmitry Kostetsky `6678c765`
+-   2019-05-23 Update Branch packages Dmitry Kostetsky `b41e5fa0`
+-   2019-05-23 erase cache. Dmitry Kostetsky `29b771a0`
+-   2019-05-23 Merge branch 'master' of https://github.com/all-social/mobile into gifs ninjasoftdev `5c5bc950`
+-   2019-05-23 Merge pull request #399 from all-social/scrolltotop-profile Dmitry Kostetsky `dc606ae6`
+-   2019-05-23 added scroll to top on profile screen ninjasoftdev `0979d766`
+-   2019-05-23 Update Branch packages Dmitry Kostetsky `78f89b10`
+-   2019-05-23 Merge pull request #397 from all-social/feedback-214 Dmitry Kostetsky `f89ec03f`
+-   2019-05-23 Merge branch 'master' into feedback-214 ninjasoftdev `cd7b7687`
+-   2019-05-23 fixed bug with deleteOn on the activity ninjasoftdev `00748124`
+-   2019-05-23 added scroll to top on profile screen ninjasoftdev `945aba50`
+-   2019-05-23 Revert "added scroll to top on profile screen" Dmitry Kostetsky `41e4c498`
+-   2019-05-23 Update Branch packages Dmitry Kostetsky `7148b9b9`
+-   2019-05-22 Revert some files Dmitry Kostetsky `27038447`
+-   2019-05-22 Revert some files Dmitry Kostetsky `2784b666`
+-   2019-05-22 Revert some files Dmitry Kostetsky `7b697ad7`
+-   2019-05-22 Update people.txt Dmitry Kostetsky `7496d2fb`
+-   2019-05-22 Fix for navigation object from props is not empty Dmitry Kostetsky `f5cbb249`
+-   2019-05-22 Merge pull request #386 from all-social/feedback-214 Dmitry Kostetsky `99c17b17`
+-   2019-05-22 added scroll to top on profile screen ninjasoftdev `23f29739`
+-   2019-05-22 Merge pull request #385 from all-social/feedback-214 Dmitry Kostetsky `9dedddf7`
+-   2019-05-22 OG photos are cut off oddly ninjasoftdev `403b856f`
+-   2019-05-22 Merge pull request #382 from all-social/feedback-214 Dmitry Kostetsky `edebccb8`
+-   2019-05-22 fixed activity attachments ninjasoftdev `9cd106d2`
+-   2019-05-22 wip ninjasoftdev `25659e63`
+-   2019-05-21 See more - on long text posts ninjasoftdev `fc4cd9fd`
+-   2019-05-21 Merge pull request #364 from all-social/feature/notification-rework Dmitry Kostetsky `cae5990a`
+-   2019-05-20 Merge remote-tracking branch 'origin/master' into feature/notification-rework Dmitry Kostetsky `4358a95a`
+-   2019-05-20 Merge pull request #381 from all-social/release/1.0.216 Dmitry Kostetsky `1e395be8`
+-   2019-05-20 Merge remote-tracking branch 'origin/master' into feature/notification-rework Dmitry Kostetsky `9c126573`
+-   2019-05-20 Merge pull request #379 from all-social/bug/avatar Dmitry Kostetsky `6c24a5df`
+-   2019-05-20 fixed avatar of comments ninjasoftdev `db57f736`
+-   2019-05-20 Merge pull request #380 from all-social/bug/upload-image Dmitry Kostetsky `cef81bd8`
+-   2019-05-20 Remove unnecessary console.log() Dmitry Kostetsky `be6d4555`
+-   2019-05-20 Replace text for image uploading loader Dmitry Kostetsky `f3bde38c`
+-   2019-05-20 When a photo isn't fully loaded on a new post - share button should be grayed out (not clickable) ninjasoftdev `3b783c4e`
+-   2019-05-20 fixed avatar of comments ninjasoftdev `563fa45e`
+-   2019-05-16 Update Remote Config immediately Dmitry Kostetsky `5bcd47f4`
+-   2019-05-15 fix build Dmitry Kostetsky `0beee994`
+-   2019-05-15 Merge pull request #378 from all-social/develop/1.0.216 Dmitry Kostetsky `784351c3`
+-   2019-05-15 Merge pull request #377 from all-social/master Dmitry Kostetsky `86908861`
+-   2019-05-15 Replace Contacts Usage description for iOS Dmitry Kostetsky `9a02a6fa`
+-   2019-05-15 Replace Contacts Usage description for iOS Dmitry Kostetsky `db018356`
+-   2019-05-15 Merge remote-tracking branch 'origin/master' into feature/notification-rework Dmitry Kostetsky `d2960a55`
+-   2019-05-15 Merge pull request #376 from all-social/release/1.0.214 Dmitry Kostetsky `760b8c15`
+-   2019-05-15 Merge pull request #375 from all-social/staging/slider Dmitry Kostetsky `d218d8e0`
+-   2019-05-15 Merge pull request #374 from all-social/staging/twitter Dmitry Kostetsky `04858f08`
+-   2019-05-15 Merge pull request #373 from all-social/bug/twitter Dmitry Kostetsky `a79392a7`
+-   2019-05-15 Merge pull request #372 from all-social/mixpanel-events Dmitry Kostetsky `e4736180`
+-   2019-05-15 Twitter Videos Support ninjasoftdev `e983e7b5`
+-   2019-05-15 Merge remote-tracking branch 'origin/master' into mixpanel-events Dmitry Kostetsky `c8ec1548`
+-   2019-05-15 Merge remote-tracking branch 'origin/master' into feature/notification-rework Dmitry Kostetsky `c099a73f`
+-   2019-05-15 Merge pull request #371 from all-social/fix/reset-password-screen-input-position Dmitry Kostetsky `678c222e`
+-   2019-05-15 Merge pull request #370 from all-social/fix/finish-button-on-sign-up-screen Dmitry Kostetsky `ffa3cd62`
+-   2019-05-15 Merge pull request #369 from all-social/bug/slider Dmitry Kostetsky `2404cb93`
+-   2019-05-14 update mixpanel events Amin Mahboubi `ccca6db5`
+-   2019-05-14 fix position input on reset screen dmitryvko83 `2bc12b88`
+-   2019-05-14 fix "finish" button hidden keyboard on sign up screen dmitryvko83 `75c66c06`
+-   2019-05-13 When User pushes sideways images (from multi-images post), image is being changed from the second time ninjasoftdev `8cec2a8c`
+-   2019-05-13 Merge remote-tracking branch 'origin/master' into feature/notification-rework Dmitry Kostetsky `75064e9c`
+-   2019-05-13 Merge pull request #367 from all-social/develop/1.0.214 Dmitry Kostetsky `5ae5b9c6`
+-   2019-05-13 Merge pull request #366 from all-social/master Dmitry Kostetsky `8d36ab89`
+-   2019-05-13 Update people.txt Dmitry Kostetsky `262b966f`
+-   2019-05-13 Merge pull request #365 from all-social/bug/facebook Dmitry Kostetsky `fc3ec856`
+-   2019-05-13 fixed facebook ninjasoftdev `7a6d7256`
+-   2019-05-10 Merge remote-tracking branch 'origin/feature/notification-rework' into feature/notification-rework Dmitry Kostetsky `e688312e`
+-   2019-05-10 Reset count of unready notifications Dmitry Kostetsky `a26b581a`
+-   2019-05-09 Add my own counter for unread Notifications Dmitry Kostetsky `bdfde2d2`
+-   2019-05-09 Add silent mode for Notification real-time updates Add counter of unread Notifications Dmitry Kostetsky `d3bc37b9`
+-   2019-05-09 Add Notifications Realtime updates and refactor the GetStream Saga with GetStreamClient Service Dmitry Kostetsky `a2df0f00`
+-   2019-05-08 Add pagination by scroll Dmitry Kostetsky `6d01b794`
+-   2019-05-08 Fix the problem with BranchIO instalation Dmitry Kostetsky `dec3c09d`
+-   2019-05-08 Replace Notifications Screen with our own implementation instead of using react-native-activity-feed component Dmitry Kostetsky `221b6914`
+-   2019-05-10 Merge pull request #363 from all-social/release/1.0.214 Dmitry Kostetsky `2647883c`
+-   2019-05-10 Merge pull request #360 from all-social/feature/mixpanel Dmitry Kostetsky `e1a08e00`
+-   2019-05-10 Merge pull request #361 from all-social/bug/username-exist Dmitry Kostetsky `a8206dcf`
+-   2019-05-10 Reset count of unready notifications Dmitry Kostetsky `b0709036`
+-   2019-05-09 Merge pull request #362 from all-social/develop/1.0.214 Dmitry Kostetsky `4e0fbd97`
+-   2019-05-09 clear cache for Android build. Dmitry Kostetsky `23692d61`
+-   2019-05-09 Add my own counter for unread Notifications Dmitry Kostetsky `9bfe1f7f`
+-   2019-05-09 Add silent mode for Notification real-time updates Add counter of unread Notifications Dmitry Kostetsky `30b234ae`
+-   2019-05-09 Add Notifications Realtime updates and refactor the GetStream Saga with GetStreamClient Service Dmitry Kostetsky `35a726d1`
+-   2019-05-09 username exists ninjasoftdev `8a9fcbd2`
+-   2019-05-09 mixpanel events ninjasoftdev `137c1a7b`
+-   2019-05-08 Merge pull request #359 from all-social/develop/1.0.214 Dmitry Kostetsky `c084dbd0`
+-   2019-05-08 Merge pull request #358 from all-social/master Dmitry Kostetsky `31a42fc3`
+-   2019-05-08 Update people.txt Dmitry Kostetsky `f43a9534`
+-   2019-05-08 Add pagination by scroll Dmitry Kostetsky `c686d788`
+-   2019-05-08 Fix the problem with BranchIO instalation Dmitry Kostetsky `dedfe9bd`
+-   2019-05-08 Replace Notifications Screen with our own implementation instead of using react-native-activity-feed component Dmitry Kostetsky `c31657cb`
+-   2019-05-08 Merge pull request #355 from all-social/develop/1.0.213 Dmitry Kostetsky `93f35e58`
+-   2019-05-08 Merge pull request #354 from all-social/mixpanel Dmitry Kostetsky `50cb165c`
+-   2019-05-08 mixpanel ninjasoftdev `a40d90b4`
+-   2019-05-07 mixpanel: added gender property ninjasoftdev `02399f90`
+-   2019-05-07 mixpanel event for menu screen ninjasoftdev `42b2c4fe`
+-   2019-05-07 updated profile picture doesn't update home feed ninjasoftdev `6efe1ea9`
+-   2019-05-07 Load more comments bug ninjasoftdev `35660478`
+-   2019-05-07 mixpanel event for post and comment ninjasoftdev `2fafa292`
+-   2019-05-07 wip ninjasoftdev `351a064d`
+-   2019-05-06 Merge pull request #352 from all-social/master Dmitry Kostetsky `aa69d67c`
+-   2019-05-06 Merge branch 'master' of https://github.com/all-social/mobile into mixpanel ninjasoftdev `4b976444`
+-   2019-05-06 wip ninjasoftdev `5ecb1288`
+-   2019-05-06 Merge pull request #351 from all-social/link-preview Dmitry Kostetsky `e67e12ef`
+-   2019-05-06 Be able to add a link to a post and then remove the link but the open graph still be attached to the post. ninjasoftdev `ed134957`
+-   2019-05-06 Be able to add a link to a post and then remove the link but the open graph still be attached to the post. ninjasoftdev `5c725de5`
+-   2019-05-03 Merge pull request #349 from all-social/release/1.0.213 Dmitry Kostetsky `96a84a86`
+-   2019-05-03 Merge pull request #348 from all-social/develop/1.0.213 Dmitry Kostetsky `83b869bb`
+-   2019-05-03 Merge pull request #347 from all-social/master Dmitry Kostetsky `770995a2`
+-   2019-05-03 Merge pull request #346 from all-social/profile-image Dmitry Kostetsky `90ac09e1`
+-   2019-05-03 update profile image ninjasoftdev `8e21c4f0`
+-   2019-05-03 Enable autosuggestion for New Post Screen keyboard Dmitry Kostetsky `92f27840`
+-   2019-05-03 Increase Keyboard offset after delete Delete Post button Dmitry Kostetsky `589cb07e`
+-   2019-05-03 Replace images for Like Button Dmitry Kostetsky `6bc24dd0`
+-   2019-05-03 Reorder buttons for CustomActivity card and for ModalImage component Dmitry Kostetsky `162fe35e`
+-   2019-05-02 Merge pull request #345 from all-social/release/1.0.212 Dmitry Kostetsky `4c77067c`
+-   2019-05-02 Merge pull request #344 from all-social/develop/1.0.212 Dmitry Kostetsky `122763c7`
+-   2019-05-02 Merge pull request #343 from all-social/master Dmitry Kostetsky `871b3f82`
+-   2019-05-02 Set correct name for iOS AppIcon Dmitry Kostetsky `c28c65a4`
+-   2019-05-02 Add new Activity icons Dmitry Kostetsky `1366a7f3`
+-   2019-05-02 Replace logo on AboutScreen Dmitry Kostetsky `3bb72dd4`
+-   2019-05-02 Merge pull request #342 from all-social/feedback-deeplink Dmitry Kostetsky `389ec58c`
+-   2019-05-02 fixed repost ninjasoftdev `31da245e`
+-   2019-05-02 Increase length of email for validator Add special error message to this rule Dmitry Kostetsky `4986a50d`
+-   2019-05-02 Remove all special characters from hashtag Dmitry Kostetsky `9798105a`
+-   2019-05-02 Be able to add a link to a post and then remove the link but the open graph still be attached to the post. ninjasoftdev `093d4f4b`
+-   2019-05-02 Profile picture upload bug ninjasoftdev `81e38840`
+-   2019-05-02 Profile picture upload bug ninjasoftdev `c51f2401`
+-   2019-05-02 Profile picture upload bug ninjasoftdev `95265171`
+-   2019-05-02 Branding color changes: topics page for new users ninjasoftdev `a96ffe55`
+-   2019-05-02 Merge pull request #341 from all-social/develop/1.0.212 Dmitry Kostetsky `c0a2a4a2`
+-   2019-05-02 Merge pull request #340 from all-social/master Dmitry Kostetsky `0246d231`
+-   2019-05-02 Fix Android crash when create a new post with photo Dmitry Kostetsky `b3f7ef1f`
+-   2019-05-02 Branding color changes: topics page for new users ninjasoftdev `a5839c29`
+-   2019-05-02 Fix Post reporting alert box Dmitry Kostetsky `43e4801b`
+-   2019-05-02 Fix moment JS deprecation warning Dmitry Kostetsky `47b55499`
+-   2019-05-02 Use Component class instead of PureComponent for AttachedCard component to prevent some warnings Dmitry Kostetsky `24860e32`
+-   2019-05-02 Merge pull request #339 from all-social/release/1.0.212 Dmitry Kostetsky `3dc3bb53`
+-   2019-05-01 Merge pull request #338 from all-social/develop/1.0.212 Dmitry Kostetsky `31c9848f`
+-   2019-05-01 Merge pull request #337 from all-social/master Dmitry Kostetsky `e26d0ab7`
+-   2019-05-01 Add URI type checking for UserAvatar component Dmitry Kostetsky `91785e68`
+-   2019-05-01 Fix app crashing on android when user create a photo for a new Post Fatal Exception: java.lang.OutOfMemoryError Dmitry Kostetsky `31e93170`
+-   2019-05-01 Merge pull request #336 from all-social/deeplink ninjasoftdev `97898413`
+-   2019-05-01 changed color for alert ninjasoftdev `a765240b`
+-   2019-05-01 Merge pull request #335 from all-social/deeplink Dmitry Kostetsky `d37f4e05`
+-   2019-05-01 verify deeplink ninjasoftdev `388f1359`
+-   2019-05-01 deeplink ninjasoftdev `91003ba4`
+-   2019-05-01 Merge pull request #334 from all-social/preview-link Dmitry Kostetsky `1e9033ee`
+-   2019-05-01 uploading a profile picture on the app makes a distorted profile picture on web. ninjasoftdev `7d8ef182`
+-   2019-05-01 Add url type checking for CustomAvatar component Dmitry Kostetsky `68461e7d`
+-   2019-05-01 Pages showing as private when they actually are not private ninjasoftdev `a5ee9e76`
+-   2019-05-01 Fix app crash on notification screen Dmitry Kostetsky `bdb361a3`
+-   2019-05-01 Merge branch 'master' of https://github.com/all-social/mobile into preview-link ninjasoftdev `824ddbb8`
+-   2019-05-01 fixed test ninjasoftdev `6f9476b7`
+-   2019-05-01 Branding changes: logo, color ninjasoftdev `920edb1f`
+-   2019-04-30 Merge pull request #303 from all-social/crash-app Dmitry Kostetsky `a17d5b44`
+-   2019-04-30 Merge branch 'master' of https://github.com/all-social/mobile into crash-app ninjasoftdev `e1a20aea`
+-   2019-04-30 Branding changes: logo, color ninjasoftdev `583a8215`
+-   2019-04-30 Fixed TwoHat reporting Dmitry Kostetsky `4e25998a`
+-   2019-04-30 Merge pull request #333 from all-social/preview-link Dmitry Kostetsky `f242653e`
+-   2019-04-30 Make Interests list the same as on website Dmitry Kostetsky `89d77c13`
+-   2019-04-30 Fix typo on Interests Screen Dmitry Kostetsky `28fc0c17`
+-   2019-04-30 Hide delete post feature for now Dmitry Kostetsky `60c5db6f`
+-   2019-04-30 Be able to add a link to a post and then remove the link but the open graph still be attached to the post ninjasoftdev `25ecf01c`
+-   2019-04-30 Fix the issue https://github.com/facebook/react-native/issues/24382 Dmitry Kostetsky `bcafa137`
+-   2019-04-25 Check if app is init before handle deeplink call Dmitry Kostetsky `6f6dcbbb`
+-   2019-04-25 Merge pull request #332 from all-social/follow-interests Dmitry Kostetsky `c1726cd8`
+-   2019-04-25 deeplink for verify email ninjasoftdev `fb502afe`
+-   2019-04-25 Merge pull request #331 from all-social/master Dmitry Kostetsky `60f953b6`
+-   2019-04-25 Update people.txt Dmitry Kostetsky `2933bd96`
+-   2019-04-25 Merge pull request #330 from all-social/follow-interests Dmitry Kostetsky `8d9bb976`
+-   2019-04-25 added follows by interests ninjasoftdev `cdc6c758`
+-   2019-04-25 Merge pull request #329 from all-social/follow-interests Dmitry Kostetsky `1a14c97e`
+-   2019-04-25 added follows by interests ninjasoftdev `c0de5be2`
+-   2019-04-25 added follows by interests ninjasoftdev `e26e3c82`
+-   2019-04-25 wip ninjasoftdev `a14b9b3e`
+-   2019-04-25 Redirect users immediately to Interests Screen after registration Dmitry Kostetsky `b68e3823`
+-   2019-04-25 Add a SearchBar to Invitations Screen Dmitry Kostetsky `4af5c938`
+-   2019-04-25 Merge pull request #328 from all-social/release/1.0.210 Dmitry Kostetsky `8141d478`
+-   2019-04-24 Merge pull request #327 from all-social/develop/1.0.210 Dmitry Kostetsky `2a49f43b`
+-   2019-04-24 Merge pull request #326 from all-social/master Dmitry Kostetsky `9e771ed7`
+-   2019-04-24 Change styles of in-app browser Dmitry Kostetsky `ca8443a2`
+-   2019-04-24 Merge pull request #325 from all-social/develop/1.0.210 Dmitry Kostetsky `346de0c0`
+-   2019-04-24 Merge pull request #324 from all-social/master Dmitry Kostetsky `165d1da8`
+-   2019-04-24 Do not call invitation init on user sign in Dmitry Kostetsky `3c7b58ed`
+-   2019-04-24 Merge pull request #323 from all-social/fix-notifications-from-unknow-user Dmitry Kostetsky `08856d21`
+-   2019-04-24 Merge pull request #322 from all-social/fix-follow Dmitry Kostetsky `c929eb50`
+-   2019-04-24 Temporary fix for youtube links Show player inside the in-app browser Dmitry Kostetsky `fa4f6ab9`
+-   2019-04-24 fix notification from unknow user ninjasoftdev `a0fd4772`
+-   2019-04-24 Improve Invitation screens Dmitry Kostetsky `0c57bc36`
+-   2019-04-23 Added NSLocationAlwaysUsageDescription description Dmitry Kostetsky `bd9c6c5d`
+-   2019-04-23 Improve the animation for AuthWrapper Dmitry Kostetsky `d2251765`
+-   2019-04-23 Merge pull request #321 from all-social/fix-follow Dmitry Kostetsky `93617d13`
+-   2019-04-22 scroll to top screen when user tap to new notification ninjasoftdev `3ac0cb89`
+-   2019-04-22 fixed flow errors ninjasoftdev `ea2f41c0`
+-   2019-04-22 enable/disable follow button based on the follower status ninjasoftdev `682f20e4`
+-   2019-04-19 Merge pull request #320 from all-social/develop/1.0.210 Dmitry Kostetsky `8dce30e5`
+-   2019-04-19 Merge pull request #319 from all-social/master Dmitry Kostetsky `da4ae795`
+-   2019-04-19 Merge pull request #318 from all-social/develop/1.0.210 Dmitry Kostetsky `14080a33`
+-   2019-04-19 Fix the issue with Capitalized hashtags Dmitry Kostetsky `23a94db5`
+-   2019-04-19 Fix backend error message style Dmitry Kostetsky `f50e8d48`
+-   2019-04-19 Merge pull request #317 from all-social/android-youtube ninjasoftdev `07fc5b3a`
+-   2019-04-19 fixed permission for photo and camera ninjasoftdev `a680470f`
+-   2019-04-19 fixed permission for photo and camera ninjasoftdev `2d7af090`
+-   2019-04-19 Check if Read Contacts permission is granted Dmitry Kostetsky `d6dccbdf`
+-   2019-04-18 Merge pull request #316 from all-social/develop/1.0.210 Dmitry Kostetsky `dea839e2`
+-   2019-04-18 Merge pull request #315 from all-social/master Dmitry Kostetsky `1709e719`
+-   2019-04-18 Merge pull request #314 from all-social/android-youtube Dmitry Kostetsky `beab719d`
+-   2019-04-18 fixed youtube video for android ninjasoftdev `d3dd131b`
+-   2019-04-18 Replace android icons Dmitry Kostetsky `5f495071`
+-   2019-04-18 Merge pull request #313 from all-social/release/1.0.210 Dmitry Kostetsky `fd50ddf6`
+-   2019-04-17 Merge pull request #312 from all-social/master Dmitry Kostetsky `db868936`
+-   2019-04-17 Update people.txt Dmitry Kostetsky `bb00f99c`
+-   2019-04-17 Merge pull request #311 from all-social/develop/1.0.208 Dmitry Kostetsky `e21e0343`
+-   2019-04-17 Merge pull request #310 from all-social/bug-fixing ninjasoftdev `5fbb8ad4`
+-   2019-04-17 fixed image preview ninjasoftdev `e6ac85e9`
+-   2019-04-17 v ninjasoftdev `cfe99a95`
+-   2019-04-17 Merge pull request #309 from all-social/master Dmitry Kostetsky `5197b706`
+-   2019-04-17 Merge pull request #305 from all-social/denied-permission Dmitry Kostetsky `3f68eefc`
+-   2019-04-17 disable user own interaction notification ninjasoftdev `fad48469`
+-   2019-04-17 disable user own interaction notification ninjasoftdev `6c45af51`
+-   2019-04-17 Merge pull request #308 from all-social/develop/1.0.208 Dmitry Kostetsky `4d627f41`
+-   2019-04-17 Sometimes Image isn't stretched for width ninjasoftdev `2be6e608`
+-   2019-04-17 Set notify to false for "other" users Dmitry Kostetsky `6d6b1fb9`
+-   2019-04-15 Fix android behavior for both platform Dmitry Kostetsky `708b84f2`
+-   2019-04-12 Return youtube player for Android and add navigation event listener for detach youtube player Dmitry Kostetsky `1f114eea`
+-   2019-04-17 Shows 2 Camera view after close the Camera permission alert. ninjasoftdev `7e67c3de`
+-   2019-04-17 Merge pull request #307 from all-social/youtube-fix Dmitry Kostetsky `4fc0201c`
+-   2019-04-16 Merge pull request #306 from all-social/master Dmitry Kostetsky `d1410e42`
+-   2019-04-16 Increase version of com.google.gms:google-services Dmitry Kostetsky `9d9da5c7`
+-   2019-04-16 re-setting cache. Dmitry Kostetsky `3cd9f2ff`
+-   2019-04-15 Shows 2 Camera view after close the Camera permission alert. ninjasoftdev `b95198b5`
+-   2019-04-15 Fix android behavior for both platform Dmitry Kostetsky `96515653`
+-   2019-04-12 Merge pull request #304 from all-social/youtube-fix Dmitry Kostetsky `55ef5256`
+-   2019-04-12 Return youtube player for Android and add navigation event listener for detach youtube player Dmitry Kostetsky `c8046c6a`
+-   2019-04-11 Pages showing as private when they actually are not private ninjasoftdev `5e46bc1a`
+-   2019-04-11 (Android-based devices) After user pressed system 'back' button and reopened app, 'white screen' is shown. Impossible .. ninjasoftdev `968be747`
+-   2019-04-11 (Android-based devices) After user pressed system 'back' button and reopened app, 'white screen' is shown. Impossible .. ninjasoftdev `3cf593af`
+-   2019-04-11 (Android-based devices) After user pressed system 'back' button and reopened app, 'white screen' is shown. Impossible .. ninjasoftdev `d912d582`
+-   2019-04-11 Merge pull request #302 from all-social/crash-app Dmitry Kostetsky `36746454`
+-   2019-04-10 Notifications - wording cut off ninjasoftdev `5cef5641`
+-   2019-04-10 Replace 3-dots icon to arrow for Activity Card Dmitry Kostetsky `f65a52d8`
+-   2019-04-10 Added another iOS logo Dmitry Kostetsky `7d934a62`
+-   2019-04-10 Added another variant of logo Dmitry Kostetsky `35315614`
+-   2019-04-10 Merge pull request #301 from all-social/release/1.0.208 Dmitry Kostetsky `4378f7d4`
+-   2019-04-09 Merge pull request #300 from all-social/develop/1.0.208 Dmitry Kostetsky `579095ed`
+-   2019-04-09 Merge pull request #299 from all-social/master Dmitry Kostetsky `7cc5bb04`
+-   2019-04-09 Remove alpha channel from icons Dmitry Kostetsky `24cc98fa`
+-   2019-04-09 Merge pull request #298 from all-social/crash-app Dmitry Kostetsky `e5c0d63f`
+-   2019-04-09 fixed height for image preview ninjasoftdev `6c1389cb`
+-   2019-04-09 fixed permission for contacts (ios) ninjasoftdev `119a0eb5`
+-   2019-04-09 Merge pull request #297 from all-social/develop/1.0.208 Dmitry Kostetsky `8e156ab3`
+-   2019-04-09 Merge pull request #296 from all-social/master Dmitry Kostetsky `e4fc2601`
+-   2019-04-09 Merge pull request #295 from all-social/crash-app Dmitry Kostetsky `61976a5a`
+-   2019-04-09 Added a new Logo Dmitry Kostetsky `6add1480`
+-   2019-04-09 When user taps 'Select Image' no reaction is shown to happen ninjasoftdev `d0941616`
+-   2019-04-09 Merge pull request #294 from all-social/crash-app Dmitry Kostetsky `c3b73e2f`
+-   2019-04-09 When user first time started up appd after downloading and setting up, app crashes two times in a row ninjasoftdev `caf330c1`
+-   2019-04-08 Merge pull request #293 from all-social/fadeinimage Dmitry Kostetsky `616eb9cf`
+-   2019-04-08 Add icons for Comment Swipeable Actions Dmitry Kostetsky `09e79df8`
+-   2019-04-08 fixed load more button ninjasoftdev `9c484f7e`
+-   2019-04-08 Invitation friends feature Dmitry Kostetsky `e7b83877`
+-   2019-04-08 deleted Progressive Image Loading on Image feed ninjasoftdev `04c8919a`
+-   2019-04-08 Merge pull request #289 from all-social/urgent-bug Dmitry Kostetsky `4f206825`
+-   2019-04-05 Posts lines are concatenated in one ninjasoftdev `faeb351e`
+-   2019-04-05 Merge pull request #291 from all-social/develop/1.0.208 Dmitry Kostetsky `f567cc93`
+-   2019-04-05 Merge pull request #290 from all-social/master Dmitry Kostetsky `41623c9b`
+-   2019-04-05 added readonly: false Dmitry Kostetsky `76e54489`
+-   2019-04-04 'SEARCH' result and '@username' hint contain users which are not matched 'SEARCH' query ninjasoftdev `b3fc9a28`
+-   2019-04-04 'Block' button is displaced when user sent following request ninjasoftdev `e861b21f`
+-   2019-04-04 'SIGN UP', 'LOG IN', 'RESET PASSWORD' buttons open appropriate pages just from second click due ninjasoftdev `d2cbd693`
+-   2019-04-04 No validation for 'Full name' text field. User can fill it in by whitespaces only ninjasoftdev `6b7a06c1`
+-   2019-04-04 No validation for 'Full name' text field. User can fill it in by whitespaces only ninjasoftdev `bab8c2d4`
+-   2019-04-04 Merge pull request #288 from all-social/urgent-bug Dmitry Kostetsky `c51ceefc`
+-   2019-04-04 there is no the sole name for complaining for the post; post - 'Flag Post' , comment - 'Report' ninjasoftdev `1302b19e`
+-   2019-04-04 Merge pull request #286 from all-social/urgent-bug Dmitry Kostetsky `e2e85b02`
+-   2019-04-04 Merge pull request #287 from all-social/develop/1.0.208 Dmitry Kostetsky `7908e6f8`
+-   2019-04-04 Merge pull request #285 from all-social/release/1.0.208 Dmitry Kostetsky `b4cb1599`
+-   2019-04-04 No validation for 'Password'/'Confirm Password' text field ninjasoftdev `f8df0b2c`
+-   2019-04-03 fixed height and preview image ninjasoftdev `e26e22b0`
+-   2019-04-03 changed background color of rootView ninjasoftdev `68ac941b`
+-   2019-04-03 Merge pull request #284 from all-social/master Dmitry Kostetsky `000ee207`
+-   2019-04-03 Merge pull request #283 from all-social/master Dmitry Kostetsky `e7340f44`
+-   2019-04-03 Merge pull request #282 from all-social/urgent-bug Dmitry Kostetsky `832a6d70`
+-   2019-04-03 Edit Profile Bio TextField Issue ninjasoftdev `36e62088`
+-   2019-04-03 Merge pull request #281 from all-social/develop/1.0.208 Dmitry Kostetsky `99ef5d69`
+-   2019-04-02 Password must be at least 6 characters ninjasoftdev `71cbfdd6`
+-   2019-04-02 Interests screen is missed ninjasoftdev `eb02b8ac`
+-   2019-04-02 override reaction filter ninjasoftdev `6c7413ab`
+-   2019-04-02 Merge pull request #280 from all-social/fixed-urls ninjasoftdev `39f65e4b`
+-   2019-04-02 App crashes when user tapped 'back' button from 'End UserLicense Agreement' ninjasoftdev `77636506`
+-   2019-04-02 Merge branch 'master' of https://github.com/all-social/mobile into fixed-urls ninjasoftdev `5a103d40`
+-   2019-04-01 Implement Progressive Image Loading on Image feed ninjasoftdev `e4e6e2a4`
+-   2019-03-31 fixed url preview ninjasoftdev `4624eb21`
+-   2019-03-29 Update the comment screen ninjasoftdev `ea2d01b4`
+-   2019-03-29 auto-suggest for comment ninjasoftdev `75541f9f`
+-   2019-03-29 Merge pull request #279 from all-social/fixed-urls ninjasoftdev `a983617d`
+-   2019-03-29 auto-suggest for comment ninjasoftdev `4a2bfabb`
+-   2019-03-29 Added swipable wrapper for comments with actions Dmitry Kostetsky `2a219604`
+-   2019-03-28 auto-suggest for comments ninjasoftdev `74dd2dcc`
+-   2019-03-28 Added OneSignal PN support Dmitry Kostetsky `aeab0210`
+-   2019-03-27 Merge pull request #278 from all-social/release/1.0.208 Dmitry Kostetsky `c7aa1c08`
+-   2019-03-27 Merge pull request #277 from all-social/develop/1.0.208 Dmitry Kostetsky `ecc6169a`
+-   2019-03-27 Merge pull request #276 from all-social/master Dmitry Kostetsky `b56c0133`
+-   2019-03-27 Create people.txt Dmitry Kostetsky `018d2d8b`
+-   2019-03-27 Merge pull request #275 from all-social/develop/1.0.208 Dmitry Kostetsky `585c1060`
+-   2019-03-27 Merge pull request #273 from all-social/fixed-urls Dmitry Kostetsky `90dc84ce`
+-   2019-03-27 Merge pull request #274 from all-social/master Dmitry Kostetsky `afa5cb42`
+-   2019-03-27 Performance enhancements, bug squashing, and new features! BitBucket `0198a4b6`
+-   2019-03-27 fixed notifications ninjasoftdev `db3e0d09`
+-   2019-03-27 fixed urls and changed preview ninjasoftdev `5b5bb8c3`
+-   2019-03-26 'Bio' doesn't expand/collapse if it long ninjasoftdev `c0f3177c`
+-   2019-03-26 Merge pull request #272 from all-social/auto-suggest Dmitry Kostetsky `8eb6efa9`
+-   2019-03-26 style for mention ninjasoftdev `5fadcc5c`
+-   2019-03-26 Added Delete On label Dmitry Kostetsky `16c66286`
+-   2019-03-25 Refactor AuthWrapper for all auth screens (fixed gaps and animation behavior) Dmitry Kostetsky `be01fa25`
+-   2019-03-22 WIP Auto-suggest user tagging with @ mentions ninjasoftdev `ff570afe`
+-   2019-03-22 Optimization for Interests Screen Dmitry Kostetsky `eb1a561a`
+-   2019-03-21 Improve username validation Dmitry Kostetsky `f97d560d`
+-   2019-03-21 Fix post sharing Dmitry Kostetsky `47121006`
+-   2019-03-21 Merge pull request #271 from all-social/phone-field Dmitry Kostetsky `98702a19`
+-   2019-03-21 'Send' button has 'active' appearance but user cannot send 'empty' comment ninjasoftdev `3e8669ba`
+-   2019-03-21 Define text underlining with transparent color Dmitry Kostetsky `bdbcab14`
+-   2019-03-21 'Name' text field should be named 'Full Name' ninjasoftdev `3d25a1e7`
+-   2019-03-20 Some improvements Dmitry Kostetsky `1f515fc9`
+-   2019-03-20 Some improvements Dmitry Kostetsky `034fc212`
+-   2019-03-20 Some improvements. Dmitry Kostetsky `63024b25`
+-   2019-03-20 Merge pull request #268 from all-social/feature/1.0.301 Dmitry Kostetsky `403c6625`
+-   2019-03-20 Impossible to reset password due to when user tapped 'Reset Your Password' link, he is proceeded to 'RESET PASSWORD' s.. ninjasoftdev `1cad7e01`
+-   2019-03-20 Wrong #hashtags are displayed as a hashtag but doesn't lead anywhere ninjasoftdev `df164fe5`
+-   2019-03-20 Wording fix for notification feed ninjasoftdev `0c3a8941`
+-   2019-03-20 Merge pull request #267 from all-social/flag-comment ninjasoftdev `6fa885d5`
+-   2019-03-19 added farebase. Dmitry Kostetsky `a1e79b89`
+-   2019-03-19 Remove transform-remove-console Babel plugin for development environment Dmitry Kostetsky `3bd7a601`
+-   2019-03-19 Improve registration saga worker for API changes Dmitry Kostetsky `396394ef`
+-   2019-03-18 small fix ninjasoftdev `7d600c3e`
+-   2019-03-18 style for flag comment icon ninjasoftdev `2f992df9`
+-   2019-03-18 added deleting comment ninjasoftdev `b33ac49b`
+-   2019-03-18 added report comment ninjasoftdev `37157255`
+-   2019-03-18 fixed reporting post ninjasoftdev `613c3cef`
+-   2019-03-18 fixed navigation for hashtags screen ninjasoftdev `58a72941`
+-   2019-03-15 Revert: Added Crashlytics Dmitry Kostetsky `e6f4208a`
+-   2019-03-15 Ignore Assets folder on test stage Dmitry Kostetsky `5d958632`
+-   2019-03-15 Temporarily disable all test for Modules Dmitry Kostetsky `8e462a9f`
+-   2019-03-15 Temporarily disable all test for Modules Dmitry Kostetsky `b0ac7ff3`
+-   2019-03-15 Added Crashlytics Dmitry Kostetsky `5dee5992`
+-   2019-03-15 Merge pull request #262 from all-social/remote-config-setup Dmitry Kostetsky `562c483f`
+-   2019-03-15 Ignored Firebase auth files Dmitry Kostetsky `1fa604ab`
+-   2019-03-15 Delete unnecessary files Dmitry Kostetsky `d746826d`
+-   2019-03-15 Rename ENV param ALL_SOCIAL_API_BASE Dmitry Kostetsky `caf04d6a`
+-   2019-03-15 Merge branch 'master' into remote-config-setup Dmitry Kostetsky `7e89a9c5`
+-   2019-03-15 Reformat native code Dmitry Kostetsky `aa1de622`
+-   2019-03-14 Added EULA link to Sign Up screen Dmitry Kostetsky `f6e04c60`
+-   2019-03-14 Merge pull request #266 from all-social/fix-follow-request Dmitry Kostetsky `f75eef1f`
+-   2019-03-14 fixed white area ninjasoftdev `952b8a90`
+-   2019-03-14 Merge pull request #265 from all-social/fix-follow-request Dmitry Kostetsky `d1f03615`
+-   2019-03-14 'Follow' button looks like active when account is blocked and user cannot follow it ninjasoftdev `e7a52d98`
+-   2019-03-14 When tap some tag, page of his tag posts is not opened. User still stays on current screen ninjasoftdev `ef2e31f0`
+-   2019-03-14 Sometimes user can’t see post data on following user. Follow button still says , but post info section says ninjasoftdev `d82d67c1`
+-   2019-03-14 Merge branch 'tab-scrollable' of https://github.com/all-social/mobile into fix-follow-request ninjasoftdev `e9aa5731`
+-   2019-03-13 status bar after full screen ninjasoftdev `41a640dc`
+-   2019-03-13 fixed follow request ninjasoftdev `faff5246`
+-   2019-03-13 added scroll to top after second click on Timeline tab ninjasoftdev `c4c13afc`
+-   2019-03-13 Merge pull request #263 from all-social/eula Dmitry Kostetsky `accf6858`
+-   2019-03-12 fixed twitter post ninjasoftdev `15ae0452`
+-   2019-03-12 Merge remote-tracking branch 'origin/master' into remote-config-setup Dmitry Kostetsky `71399a6e`
+-   2019-03-12 fixed issue with WEBSITE_BASE env. Dmitry Kostetsky `7731f75e`
+-   2019-03-12 fixed private account ninjasoftdev `67c00088`
+-   2019-03-12 fixed reactions ninjasoftdev `314b25cb`
+-   2019-03-12 fixed issue with WEBSITE_BASE env. Dmitry Kostetsky `8001d1ce`
+-   2019-03-12 Merge pull request #258 from all-social/eula Dmitry Kostetsky `01ea09b2`
+-   2019-03-12 fixed private account ninjasoftdev `768888aa`
+-   2019-03-12 fixed reactions ninjasoftdev `9f41d707`
+-   2019-03-12 changed eula icon ninjasoftdev `e54dc74c`
+-   2019-03-12 Merge pull request #256 from all-social/eula Dmitry Kostetsky `06af9fbe`
+-   2019-03-12 changed eula icon ninjasoftdev `30d4fc87`
+-   2019-03-12 Add necessary dependencies to Android Project Dmitry Kostetsky `68330b56`
+-   2019-03-12 Replace react-native-dotenv to Firebase Remote Config Dmitry Kostetsky `48cce877`
+-   2019-03-12 Merge pull request #253 from all-social/release/1.0.204 Dmitry Kostetsky `a3c34c58`
+-   2019-03-12 Merge pull request #252 from all-social/develop/1.0.204 Dmitry Kostetsky `e74d9433`
+-   2019-03-12 Merge pull request #251 from all-social/master Dmitry Kostetsky `e02cc2d2`
+-   2019-03-12 Merge pull request #250 from all-social/eula Dmitry Kostetsky `fa4a5b15`
+-   2019-03-11 Added EULA ninjasoftdev `26cdf9c5`
+-   2019-03-11 Merge pull request #249 from all-social/fixed-shared Dmitry Kostetsky `90daae46`
+-   2019-03-11 fixed sharing ninjasoftdev `4e6bf785`
+-   2019-03-11 Merge pull request #248 from all-social/fix-youtube Dmitry Kostetsky `57c8b0a2`
+-   2019-03-11 fixed status bar after returning from youtube ninjasoftdev `0f5920a5`
+-   2019-03-11 Merge pull request #247 from all-social/fix-camera Dmitry Kostetsky `f7f60476`
+-   2019-03-11 fixed post section ninjasoftdev `61bfdc17`
+-   2019-03-11 Merge pull request #246 from all-social/fix-camera Dmitry Kostetsky `d2323539`
+-   2019-03-11 fixed "shows 2 camera" ninjasoftdev `5b123c4e`
+-   2019-03-11 Merge pull request #245 from all-social/develop/1.0.204 Dmitry Kostetsky `e3086a8e`
+-   2019-03-11 Merge pull request #244 from all-social/master Dmitry Kostetsky `cea8b948`
+-   2019-03-11 Merge pull request #239 from all-social/blocked-user Dmitry Kostetsky `e56aaf8e`
+-   2019-03-11 fixed post section ninjasoftdev `4ae99b3b`
+-   2019-03-11 fixed followers counter ninjasoftdev `943bdb40`
+-   2019-03-08 Merge pull request #243 from all-social/master Dmitry Kostetsky `15554341`
+-   2019-03-08 Merge pull request #242 from all-social/release/1.0.204 Dmitry Kostetsky `67340538`
+-   2019-03-08 Merge pull request #241 from all-social/develop/1.0.204 Dmitry Kostetsky `6d2497f7`
+-   2019-03-08 Merge pull request #240 from all-social/master Dmitry Kostetsky `fcce3787`
+-   2019-03-08 blocked user ninjasoftdev `7e4f1997`
+-   2019-03-07 Merge pull request #238 from all-social/visible-post Dmitry Kostetsky `bc1a2bda`
+-   2019-03-07 Merge pull request #237 from all-social/scrollable-header Dmitry Kostetsky `085d620c`
+-   2019-03-07 Merge pull request #236 from all-social/fix-update Dmitry Kostetsky `9117d21a`
+-   2019-03-07 Make 'post section' of home screen to be scrollable with feed like facebook ninjasoftdev `5f264748`
+-   2019-03-07 added scrollable headre for user profile ninjasoftdev `f905f927`
+-   2019-03-07 'Follow/Following' button (functionality) works with delay - applied only after user re-visited other user profile ninjasoftdev `e03b2d28`
+-   2019-03-07 changed endpoints for user saga ninjasoftdev `fb822fba`
+-   2019-03-07 Add checkbox with ToS and Privacy links Dmitry Kostetsky `486022d0`
+-   2019-03-06 Merge pull request #235 from all-social/fix-update Dmitry Kostetsky `ad8dc120`
+-   2019-03-06 fixed update user ninjasoftdev `94015e8d`
+-   2019-03-06 Merge pull request #231 from all-social/validation-password Dmitry Kostetsky `985d547e`
+-   2019-03-06 When Bio has a huge size, 'Profile' screen is not scrollable ninjasoftdev `57bf664f`
+-   2019-03-05 added no notificaions screen ninjasoftdev `f950842d`
+-   2019-03-05 Merge pull request #234 from all-social/develop/1.0.204 Dmitry Kostetsky `a413696c`
+-   2019-03-05 Merge pull request #233 from all-social/master Dmitry Kostetsky `5770b7af`
+-   2019-03-05 added additional filter for release notes Dmitry Kostetsky `408bbe6e`
+-   2019-03-05 Merge pull request #232 from all-social/develop/1.0.204 Dmitry Kostetsky `3e17851e`
+-   2019-03-05 App logo is hidden by 'LOGIN' ninjasoftdev `71f13bbc`
+-   2019-03-05 Merge pull request #230 from all-social/master Dmitry Kostetsky `314dfc6c`
+-   2019-03-05 Merge pull request #229 from all-social/ally-circle-commit-list Dmitry Kostetsky `f0132cdd`
+-   2019-03-05 added notification via slack and descript. based on the commit message. BitBucket `1d84ab25`
+-   2019-03-05 Merge pull request #227 from all-social/validation-password Dmitry Kostetsky `18feed6a`
+-   2019-03-05 cut bio info ninjasoftdev `0182bfd4`
+-   2019-03-05 password validation ninjasoftdev `6b96ab7d`
+-   2019-03-05 Merge pull request #226 from all-social/fix-scheduler Dmitry Kostetsky `9a93907f`
+-   2019-03-04 wip unit tests for users saga ninjasoftdev `641e90be`
+-   2019-03-04 Fix Flow errors Dmitry Kostetsky `0885fb48`
+-   2019-03-04 Merge pull request #225 from all-social/fix-scheduler Dmitry Kostetsky `1a14d7db`
+-   2019-03-04 Fix Flow errors Dmitry Kostetsky `67a49ab4`
+-   2019-03-04 fixed schedule to delete ninjasoftdev `e3e22ba0`
+-   2019-03-02 Merge pull request #224 from all-social/feature/back_android_button Dmitry Kostetsky `04e572bb`
+-   2019-03-02 add close button handler Roman `3021b5ed`
+-   2019-03-01 Merge pull request #223 from all-social/master Dmitry Kostetsky `65fd7de7`
+-   2019-03-01 Merge pull request #222 from all-social/master Dmitry Kostetsky `8dfb55c2`
+-   2019-03-01 Merge pull request #221 from all-social/feature/disable_player Dmitry Kostetsky `7de65919`
+-   2019-03-01 Disabled Roman `5c0f16c9`
+-   2019-03-01 Merge pull request #220 from all-social/keyboard-login-signup-fix Dmitry Kostetsky `83cfa9be`
+-   2019-03-01 Fixed keyboard, now it moves header for support smaller devices dmitryvko83 `9e4e66f2`
+-   2019-03-01 Added Bio to profile screen Dmitry Kostetsky `5cbd01c7`
+-   2019-03-01 Merge pull request #219 from all-social/different-indent-fix Dmitry Kostetsky `7f9d815a`
+-   2019-03-01 FIxed bottom terms position dmitryvko83 `23fdc894`
+-   2019-03-01 Merge pull request #218 from all-social/master Dmitry Kostetsky `1dcf01f4`
+-   2019-03-01 Merge pull request #217 from all-social/master Dmitry Kostetsky `03c0245e`
+-   2019-03-01 Merge pull request #216 from all-social/back-from-search-screen Dmitry Kostetsky `a0df0383`
+-   2019-03-01 Merge pull request #122 from all-social/feature/cache Dmitry Kostetsky `5414d741`
+-   2019-03-01 Deleted unnecessary import dmitryvko83 `b12f4c20`
+-   2019-03-01 Updated code Roman `9b74dedf`
+-   2019-02-17 Cached profile pages Roman `f1851a4c`
+-   2019-03-01 Clear state when user is logout Dmitry Kostetsky `42d81628`
+-   2019-03-01 Merge pull request #215 from all-social/master Dmitry Kostetsky `c6d839c0`
+-   2019-03-01 Merge pull request #214 from all-social/master Dmitry Kostetsky `e0a64bef`
+-   2019-03-01 Fixed app crash if comment does not contain user object Dmitry Kostetsky `71ec6ee5`
+-   2019-02-28 Merge pull request #213 from all-social/master Dmitry Kostetsky `9254c314`
+-   2019-02-28 Merge pull request #212 from all-social/master Dmitry Kostetsky `cc0749d0`
+-   2019-02-28 Added special helper to check image URI Dmitry Kostetsky `db836773`
+-   2019-02-28 Merge pull request #211 from all-social/develop/1.0.204 Dmitry Kostetsky `72f1454b`
+-   2019-02-28 Merge pull request #210 from all-social/master Dmitry Kostetsky `1002f951`
+-   2019-02-28 fix issue with double quotes. Dmitry Kostetsky `5078b1c2`
+-   2019-02-28 Merge pull request #209 from all-social/master Dmitry Kostetsky `5f0b6262`
+-   2019-02-28 Added new variables. Dmitry Kostetsky `8a1eedc8`
+-   2019-02-28 Fixed base URIs to APIs Dmitry Kostetsky `3be1dd8e`
+-   2019-02-28 Merge pull request #208 from all-social/master Dmitry Kostetsky `7ac28180`
+-   2019-02-28 Merge pull request #207 from all-social/master Dmitry Kostetsky `4de0f8cd`
+-   2019-02-28 Merge pull request #206 from all-social/multi-line-comments Dmitry Kostetsky `a36d48d5`
+-   2019-02-28 Added multilines for comments dmitryvko83 `f33b95f7`
+-   2019-02-28 transform-remove-console used to prevent some unexpected app crashes Dmitry Kostetsky `6feab408`
+-   2019-02-28 Merge pull request #205 from all-social/feature/loader Dmitry Kostetsky `884280eb`
+-   2019-02-28 Added loader Roman `190cfbbd`
+-   2019-02-28 Merge pull request #204 from all-social/fix-like Dmitry Kostetsky `95e71276`
+-   2019-02-28 fixed like post ninjasoftdev `b5e45d66`
+-   2019-02-28 Tweak button arrange Dmitry Kostetsky `b612e578`
+-   2019-02-28 Set Accent Color for all Android controls globally Dmitry Kostetsky `c17ab3e2`
+-   2019-02-28 Fix gaps on CommentBox Dmitry Kostetsky `853b661e`
+-   2019-02-28 Merge pull request #203 from all-social/fix-like Dmitry Kostetsky `96ae3875`
+-   2019-02-28 fixed password textinput ninjasoftdev `2927dd39`
+-   2019-02-28 Make Offline Label clickable to hide it Dmitry Kostetsky `2cf32c08`
+-   2019-02-28 Merge pull request #201 from all-social/links-stick-fix Dmitry Kostetsky `e073f58a`
+-   2019-02-28 Merge pull request #202 from all-social/master Dmitry Kostetsky `6618c5a2`
+-   2019-02-28 changed \_JAVA_OPTIONS Dmitry Kostetsky `30c77328`
+-   2019-02-28 Removed warning from third-party scrollview dmitryvko83 `716306f3`
+-   2019-02-28 Merge pull request #200 from all-social/fix-image Dmitry Kostetsky `69028cf3`
+-   2019-02-28 Merge pull request #199 from all-social/wrong-email-validation-fix Dmitry Kostetsky `126ebe74`
+-   2019-02-28 fixed profile image ninjasoftdev `3b940caa`
+-   2019-02-28 Fixed validation text for email sign up dmitryvko83 `f7935dfe`
+-   2019-02-28 Merge pull request #198 from all-social/keyboard-hidden-fix Dmitry Kostetsky `7d70ad6e`
+-   2019-02-28 Fixed buttons hidden by keyboard on auth screen dmitryvko83 `3d147379`
+-   2019-02-28 Fix Android build (roll-back previous commit) Dmitry Kostetsky `7e539824`
+-   2019-02-28 Merge pull request #197 from all-social/master Dmitry Kostetsky `15f5bf68`
+-   2019-02-28 Fix Android build Dmitry Kostetsky `f53fe440`
+-   2019-02-28 Merge pull request #196 from all-social/master Dmitry Kostetsky `9d011336`
+-   2019-02-28 Fix Android build Dmitry Kostetsky `a80788e5`
+-   2019-02-28 Merge pull request #195 from all-social/master Dmitry Kostetsky `1caf9b21`
+-   2019-02-27 Merge pull request #194 from all-social/bug/image_height Dmitry Kostetsky `8e3ef358`
+-   2019-02-27 Updated view height Roman `0a50d666`
+-   2019-02-27 Merge pull request #193 from all-social/master Dmitry Kostetsky `33b3c43a`
+-   2019-02-27 Merge pull request #192 from all-social/feature/FB_and_YT_video_support Dmitry Kostetsky `e49d1e54`
+-   2019-02-27 Done with player Roman `0c8e2bbd`
+-   2019-02-27 temp commit Roman `765f1074`
+-   2019-02-25 Fixed issue Roman `b42b9703`
+-   2019-02-24 Added video player for android Roman `d88c6de5`
+-   2019-02-24 Added video supprot for IOS Roman `3f3ca642`
+-   2019-02-27 Merge pull request #191 from all-social/fix-signup Dmitry Kostetsky `d95cfed1`
+-   2019-02-27 'Name must contain...' alert text is not displayed entirely(1.0.204(308)) ninjasoftdev `20f281f4`
+-   2019-02-27 Merge pull request #189 from all-social/logged-out-back-button-fix Dmitry Kostetsky `c0f545d6`
+-   2019-02-27 Merge pull request #190 from all-social/feature/change_icon_position Dmitry Kostetsky `42dc3222`
+-   2019-02-27 Merge tests branch to master Dmitry Kostetsky `0614bcd1`
+-   2019-02-27 Merge remote-tracking branch 'origin/tests' Dmitry Kostetsky `b7d496c4`
+-   2019-02-27 Updated order of icons Roman `fb5a0a75`
+-   2019-02-27 Fixed back button from app in tray dmitryvko83 `33f44323`
+-   2019-02-27 Merge pull request #188 from all-social/fix-validation Dmitry Kostetsky `2b3c061e`
+-   2019-02-27 fixed validations error ninjasoftdev `6e15a9a5`
+-   2019-02-27 Merge pull request #187 from all-social/profile-changed-popup-fix Dmitry Kostetsky `58e2c86e`
+-   2019-02-27 Removed grey circle from search icon Dmitry Kostetsky `ca41b1da`
+-   2019-02-27 Updated permission sentences Dmitry Kostetsky `dcf99ded`
+-   2019-02-27 Popup twice fixed, some refactoring dmitryvko83 `1a551548`
+-   2019-02-27 Changing tests thresholds. BitBucket `1d9f864e`
+-   2019-02-27 Merge pull request #185 from all-social/back-in-time-delete-fix Dmitry Kostetsky `70eefd76`
+-   2019-02-27 Merge pull request #186 from all-social/fix-date-android Dmitry Kostetsky `caa80c63`
+-   2019-02-27 fixed date for android ninjasoftdev `4f148477`
+-   2019-02-27 Fixed past date in android dmitryvko83 `9c914307`
+-   2019-02-27 wip test for user module ninjasoftdev `3a0015cc`
+-   2019-02-27 Merge pull request #184 from all-social/release/1.0.204 Dmitry Kostetsky `59f6e71e`
+-   2019-02-27 Merge pull request #183 from all-social/develop/1.0.204 Dmitry Kostetsky `4b8b668a`
+-   2019-02-27 Complete tests for Timeline Module (70% coverage) Dmitry Kostetsky `66fcd938`
+-   2019-02-26 Merge pull request #182 from all-social/master Dmitry Kostetsky `d9e44158`
+-   2019-02-26 Merge pull request #181 from all-social/master Dmitry Kostetsky `44d35c4f`
+-   2019-02-26 Merge pull request #180 from all-social/unrecognized-hashtags-fixed Dmitry Kostetsky `5752dfc3`
+-   2019-02-26 Validating hashtags using regexp dmitryvko83 `475f9bdd`
+-   2019-02-26 added commit_range_1 Dmitry Kostetsky `be939991`
+-   2019-02-26 added commit_range Dmitry Kostetsky `a6039b55`
+-   2019-02-26 Merge pull request #179 from all-social/feature/new_zoom_design Dmitry Kostetsky `dc1aa2ff`
+-   2019-02-26 changed omg for prepare-env Dmitry Kostetsky `1c8e9a6e`
+-   2019-02-26 Merge pull request #178 from all-social/keyboard-cover-bottom-menu Dmitry Kostetsky `b00127e5`
+-   2019-02-26 allowed all branhces to prepare-env stage BitBucket `bf88aa10`
+-   2019-02-26 added tests and logic to do them on any branch. BitBucket `036948ee`
+-   2019-02-26 update flow check Roman `e4e6369e`
+-   2019-02-26 Console log deleteed Roman `1db9320b`
+-   2019-02-26 Updated design Roman `5083aa5b`
+-   2019-02-26 First design Roman `b459ac0d`
+-   2019-02-26 Removed undefined component dmitryvko83 `5bdb9039`
+-   2019-02-26 wip test for user module ninjasoftdev `a488b221`
+-   2019-02-26 Merge branch 'master' of https://github.com/all-social/mobile into keyboard-cover-bottom-menu dmitryvko83 `583c83e1`
+-   2019-02-26 Removed unnecessary react-native-keyboard-spacer library dmitryvko83 `114cc1b8`
+-   2019-02-26 Moved bottom menu up to keyboard in IOS dmitryvko83 `b3d1964a`
+-   2019-02-26 Merge branch 'master' of https://github.com/all-social/mobile into tests ninjasoftdev `2fdd3156`
+-   2019-02-26 Merge pull request #177 from all-social/navigation-user Dmitry Kostetsky `fd58264e`
+-   2019-02-26 Menu bar goes away when going to other user profiles ninjasoftdev `77c0ede4`
+-   2019-02-26 Merge pull request #176 from all-social/fix-notification Dmitry Kostetsky `31f5c3e1`
+-   2019-02-26 Merge pull request #175 from all-social/feature/flow_issues Dmitry Kostetsky `3385ea62`
+-   2019-02-26 Tagging user notification. Nothing is explained. It just says "Testing Justin" ninjasoftdev `48449eaa`
+-   2019-02-26 Delete flow issues Roman `e0fb3800`
+-   2019-02-26 wip test for user module ninjasoftdev `d3884c5f`
+-   2019-02-26 Merge pull request #173 from all-social/hashtag-support Dmitry Kostetsky `be5b822c`
+-   2019-02-26 Hashtags screen finished, back button and title for header were added dmitryvko83 `c745dec6`
+-   2019-02-26 Merge pull request #174 from all-social/feature/zoom_image_holder Dmitry Kostetsky `50b55a6b`
+-   2019-02-25 Added height and width Roman `6d80df50`
+-   2019-02-25 New screen with all the choosen hashtags added dmitryvko83 `6d416442`
+-   2019-02-25 Complete tests for Timeline Module (100% coverage) Dmitry Kostetsky `600f2788`
+-   2019-02-25 Merge pull request #172 from all-social/fix/flow-error Dmitry Kostetsky `ac6bf033`
+-   2019-02-25 fixed flow errors ninjasoftdev `ce6ebcc4`
+-   2019-02-25 Complete tests for Activity Module (100% coverage) Dmitry Kostetsky `cf7da476`
+-   2019-02-24 Complete tests for App Module (100% coverage) Dmitry Kostetsky `9f80f590`
+-   2019-02-24 Merge pull request #171 from all-social/develop/1.0.204 Dmitry Kostetsky `f4d19af1`
+-   2019-02-24 Merge pull request #170 from all-social/master Dmitry Kostetsky `c0585060`
+-   2019-02-24 Merge pull request #164 from all-social/bug/image_sizes Dmitry Kostetsky `d1d61a67`
+-   2019-02-24 Merge pull request #165 from all-social/fix/style-suggestions Dmitry Kostetsky `435c7810`
+-   2019-02-24 Merge pull request #166 from all-social/fix/relogin-after-pass-change Dmitry Kostetsky `d7d5d20f`
+-   2019-02-24 Merge pull request #167 from all-social/fix/saving-last-suggestions Dmitry Kostetsky `98e76c96`
+-   2019-02-24 Merge pull request #168 from all-social/feature/mentions Dmitry Kostetsky `cd0341b6`
+-   2019-02-24 Merge pull request #169 from all-social/bug/ios_weird_share_message Dmitry Kostetsky `d2d53474`
+-   2019-02-22 Fixed message Roman `6fef4016`
+-   2019-02-22 Fixed ios error Roman `6a75ff2c`
+-   2019-02-22 Mentions support dmitryvko83 `5e0ce076`
+-   2019-02-22 username in two lines dmitryvko83 `717629e7`
+-   2019-02-22 Save suggestions even restart app dmitryvko83 `0dd8bb98`
+-   2019-02-22 minheight on suggestion item dmitryvko83 `66d7ccd0`
+-   2019-02-22 wider suggestions item dmitryvko83 `9b74825f`
+-   2019-02-22 Relogin after password was changed dmitryvko83 `91dcbd3d`
+-   2019-02-22 fix suggestions style dmitryvko83 `57956a54`
+-   2019-02-22 Updated image size Roman `59881a6c`
+-   2019-02-22 "Delete in a Day" should be reworded. "Schedule To Delete" would be better. Dmitry Kostetsky `dfea5550`
+-   2019-02-22 Fix padding on CommentBox on Android Dmitry Kostetsky `11eeb8c4`
+-   2019-02-22 Merge pull request #163 from all-social/develop/1.0.204 Dmitry Kostetsky `87723187`
+-   2019-02-22 Clear state on submiting form on Sign Up screen Dmitry Kostetsky `7f89983e`
+-   2019-02-22 Merge pull request #162 from all-social/master Dmitry Kostetsky `2f0679ab`
+-   2019-02-22 Merge pull request #160 from all-social/feature/multiple-photos-in-posts Dmitry Kostetsky `c4655dfa`
+-   2019-02-22 Merge branch 'master' into feature/multiple-photos-in-posts Dmitry Kostetsky `aa2d4b9d`
+-   2019-02-22 Merge pull request #158 from all-social/fix/remove-photo-on-post Dmitry Kostetsky `c604272b`
+-   2019-02-22 Merge pull request #157 from all-social/fix/internet-connection-bar-ios Dmitry Kostetsky `d4767a45`
+-   2019-02-22 Merge pull request #161 from all-social/feature/fb_image_view_style Dmitry Kostetsky `0df14796`
+-   2019-02-21 Changed image view style Roman `75c2e7ad`
+-   2019-02-21 Adding multiple photos dmitryvko83 `ca640935`
+-   2019-02-21 Merge pull request #159 from all-social/fix/welcome-screen Dmitry Kostetsky `997cd1fa`
+-   2019-02-21 'WELCOME' screen is opened after User logged in(1.0.204(205)) ninjasoftdev `ddecd962`
+-   2019-02-21 Merge branch 'master' of https://github.com/all-social/mobile into fix/welcome-screen ninjasoftdev `e98281a0`
+-   2019-02-21 'WELCOME' screen is opened after User logged in(1.0.204(205)) ninjasoftdev `a4016b3d`
+-   2019-02-21 Fix removing photo on post dmitryvko83 `769790db`
+-   2019-02-21 Fix internet connection bar on ios dmitryvko83 `3604eb3b`
+-   2019-02-21 Merge pull request #156 from all-social/bug/highlight_avatar Dmitry Kostetsky `516cfd48`
+-   2019-02-21 added reject_build_waiting_for_review Dmitry Kostetsky `df50a61a`
+-   2019-02-21 Updated avatar Roman `230cc332`
+-   2019-02-21 Change order to Alert buttons Dmitry Kostetsky `90b58fa6`
+-   2019-02-21 Added tests for all App Module Actions Dmitry Kostetsky `5a6db04b`
+-   2019-02-21 Merge pull request #155 from all-social/fix/search-screen Dmitry Kostetsky `6be72c8b`
+-   2019-02-21 Merge pull request #154 from all-social/fix/updated-suggestions Dmitry Kostetsky `9b1e0006`
+-   2019-02-21 Merge pull request #150 from all-social/feature/save_images_sizes Dmitry Kostetsky `1425aece`
+-   2019-02-21 fix search crash without internet, debounce on search dmitryvko83 `b52b6e20`
+-   2019-02-21 Update follow suggestions feature dmitryvko83 `ab3af7b8`
+-   2019-02-21 added tests Dmitry Kostetsky `19fee813`
+-   2019-02-19 added mv -f package.json.bkp package.json BitBucket `729224be`
+-   2019-02-19 another fix versioning for package.json BitBucket `4a0ee2d2`
+-   2019-02-19 changed 1.0.23 to \*.22 BitBucket `e9c870a8`
+-   2019-02-19 debig version BitBucket `b335d6a4`
+-   2019-02-19 adding another logic to change version on package.json BitBucket `51cd4279`
+-   2019-02-19 changing versioning of package.json BitBucket `c5ec9f77`
+-   2019-02-19 changed logic of versioning. Dmitry Kostetsky `4694efd9`
+-   2019-02-19 added ITSAppUsesNonExemptEncryption No Dmitry Kostetsky `36c5c021`
+-   2019-02-19 allowed ios-releases ad added slack notifications. Dmitry Kostetsky `fbb71e9d`
+-   2019-02-19 Versioning fixing. Dmitry Kostetsky `778ce81c`
+-   2019-02-19 debug versioning. Dmitry Kostetsky `5e8c5a01`
+-   2019-02-19 uncommented cache for android. relocate the source of .env file. Dmitry Kostetsky `224c0a9c`
+-   2019-02-19 changed version Dmitry Kostetsky `d4fa22a9`
+-   2019-02-19 fixing android automation builds. Dmitry Kostetsky `e27adb73`
+-   2019-02-18 did code refactoring. Dmitry Kostetsky `03fbd6a3`
+-   2019-02-18 changed SDK versions Dmitry Kostetsky `d8e6ee37`
+-   2019-02-18 changed sdk versions. Dmitry Kostetsky `2abfe2b0`
+-   2019-02-18 changed version of docker image Dmitry Kostetsky `aebb22d5`
+-   2019-02-18 debug android issue. Dmitry Kostetsky `79453d8c`
+-   2019-02-18 changed based version Dmitry Kostetsky `02e5ce5b`
+-   2019-02-18 commented cache for android Dmitry Kostetsky `c1fdc752`
+-   2019-02-18 did refactoring code. Dmitry Kostetsky `c4cf66fd`
+-   2019-02-18 allowed to build android Dmitry Kostetsky `e7aa661c`
+-   2019-02-18 fix yaml format Dmitry Kostetsky `0addc964`
+-   2019-02-18 fixed issue with format of yaml Dmitry Kostetsky `fc614db2`
+-   2019-02-18 added ability to upload android. Dmitry Kostetsky `f43ebf09`
+-   2019-02-13 replaced space with tabs Dmitry Kostetsky `d58e271f`
+-   2019-02-13 made refactoring. Dmitry Kostetsky `0a20bb64`
+-   2019-02-13 refactoring... Dmitry Kostetsky `e0aacb69`
+-   2019-02-13 refactoring... Dmitry Kostetsky `7d4d3ead`
+-   2019-02-13 added missed end Dmitry Kostetsky `b643a1c3`
+-   2019-02-13 added ability to build iOS Dmitry Kostetsky `73118af8`
+-   2019-02-13 added android build. Dmitry Kostetsky `4004806e`
+-   2019-02-21 Merge pull request #149 from all-social/bug/crash_multiple_images Dmitry Kostetsky `5001bb48`
+-   2019-02-21 Merge pull request #151 from all-social/unit-tests Dmitry Kostetsky `ae97fd6d`
+-   2019-02-21 Add tests for App Saga Dmitry Kostetsky `5b6a7b98`
+-   2019-02-20 Added redux store Roman `c33b05ea`
+-   2019-02-20 add filter Roman `f9ab98d2`
+-   2019-02-20 android build fix dmitryvko83 `c8dad994`
+-   2019-02-20 Merge pull request #148 from all-social/feature/showing-deleted-post Dmitry Kostetsky `c8215820`
+-   2019-02-20 handle deleted post on single post dmitryvko83 `b474c033`
+-   2019-02-20 Merge pull request #147 from all-social/fix/notification-icons Dmitry Kostetsky `f7d35d8b`
+-   2019-02-20 fix notification icons dmitryvko83 `7ed9a85b`
+-   2019-02-20 Merge pull request #146 from all-social/fix/reshare-private Dmitry Kostetsky `0ea63223`
+-   2019-02-20 merged with master dmitryvko83 `8cf3d07b`
+-   2019-02-20 remove reshare button for private profiles dmitryvko83 `cf44212f`
+-   2019-02-20 Merge pull request #145 from all-social/fix/scheduled-delete-post Dmitry Kostetsky `321df8df`
+-   2019-02-20 change time format ninjasoftdev `aaeea128`
+-   2019-02-20 Merge pull request #143 from all-social/fix/notification-item-reworked Dmitry Kostetsky `a238aedd`
+-   2019-02-20 Merge pull request #142 from all-social/fix/scheduled-delete-post Dmitry Kostetsky `1bf2e695`
+-   2019-02-20 Merge pull request #144 from all-social/fix/repost-missing-feedid Dmitry Kostetsky `e87a143c`
+-   2019-02-20 repost missing feedId dmitryvko83 `65655197`
+-   2019-02-20 notification item reworked dmitryvko83 `475c0756`
+-   2019-02-20 change time format ninjasoftdev `90faf259`
+-   2019-02-20 fix deleting post ninjasoftdev `6f53d977`
+-   2019-02-20 Setup test environment Example test for Components Dmitry Kostetsky `c24757a2`
+-   2019-02-20 Merge pull request #138 from all-social/fix/immutable-interests Dmitry Kostetsky `49fc40b7`
+-   2019-02-20 Merge pull request #140 from all-social/feature/keyboard_aware Dmitry Kostetsky `10487a68`
+-   2019-02-20 Merge pull request #141 from all-social/feature/frozen_issue Dmitry Kostetsky `5ccf9523`
+-   2019-02-20 Merge pull request #139 from all-social/fix/suggestions-persist Dmitry Kostetsky `d3c1b55f`
+-   2019-02-20 Builds number and versions up Dmitry Kostetsky `f42e24f9`
+-   2019-02-19 Updated rerender Roman `92d792fa`
+-   2019-02-19 Updated view Roman `841742bf`
+-   2019-02-19 check if suggestions in store dmitryvko83 `e080038c`
+-   2019-02-19 immutable interests dmitryvko83 `75942118`
+-   2019-02-19 Merge pull request #125 from all-social/feature/follow-suggestions Dmitry Kostetsky `7abe1012`
+-   2019-02-19 Merge pull request #133 from all-social/fix/username-validation Dmitry Kostetsky `ec613c55`
+-   2019-02-19 Merge pull request #134 from all-social/fix/fetching-token-from-user Dmitry Kostetsky `793ae285`
+-   2019-02-19 Merge pull request #135 from all-social/fix/invalid-username-on-update Dmitry Kostetsky `bbfae3f7`
+-   2019-02-19 Merge pull request #137 from all-social/feature/scheduled-delete-post dmitryvko83 `f7b74ee8`
+-   2019-02-19 Scheduled delete post ninjasoftdev `d383ceb8`
+-   2019-02-19 block updateDetailsRequest if updateProfileRequest got error dmitryvko83 `80489b53`
+-   2019-02-19 remove token and streamToken from user data response dmitryvko83 `da9cd9bc`
+-   2019-02-19 username validation dmitryvko83 `fa3ac2d7`
+-   2019-02-19 handle click on user dmitryvko83 `2f71c210`
+-   2019-02-19 Merge branch 'master' of https://github.com/all-social/mobile into feature/follow-suggestions dmitryvko83 `97b30c55`
+-   2019-02-19 Merge pull request #132 from all-social/fix/multiple-requests-after-login Dmitry Kostetsky `b3fd5d60`
+-   2019-02-19 fix multiple requests after login dmitryvko83 `678b0ec9`
+-   2019-02-19 Merge branch 'master' of https://github.com/all-social/mobile into feature/follow-suggestions dmitryvko83 `3af5a8a5`
+-   2019-02-19 hotfix dmitryvko83 `0564db67`
+-   2019-02-19 merged with master dmitryvko83 `39fbddd2`
+-   2019-02-19 Merge pull request #128 from all-social/feature/smooth_photo_slider Dmitry Kostetsky `1cf737eb`
+-   2019-02-19 Merge pull request #129 from all-social/fix/notification-badge Dmitry Kostetsky `a9233a76`
+-   2019-02-19 Merge pull request #130 from all-social/fix/whitespace-on-comments Dmitry Kostetsky `c0f742e3`
+-   2019-02-19 disabled comment box on whitespace only dmitryvko83 `04e8c79e`
+-   2019-02-19 Merge branch 'master' of https://github.com/all-social/mobile into fix/notification-badge ninjasoftdev `60b7b48d`
+-   2019-02-19 Strange loading/refresh issue of Notification page ninjasoftdev `9fc2d11a`
+-   2019-02-19 Badge doesn't disappear when User refresh 'Notifications' screen (1.0.22(44), 1.0.22(45)) ninjasoftdev `b569fa6b`
+-   2019-02-19 Changed name for handlers Roman `ca91417e`
+-   2019-02-19 Updated handler Roman `aa46163a`
+-   2019-02-19 Merge pull request #123 from all-social/feature/hide_tab_bar_on_zoom Dmitry Kostetsky `6bf0e75e`
+-   2019-02-19 Merge pull request #127 from all-social/feature/avatar_highlight Dmitry Kostetsky `27b5c0d5`
+-   2019-02-19 Merge pull request #126 from all-social/fix/comments-likes Dmitry Kostetsky `cfba5905`
+-   2019-02-19 Builds number up Dmitry Kostetsky `234d4359`
+-   2019-02-18 Updated all avatars Roman `979b710b`
+-   2019-02-18 Updated color Roman `5ad027ac`
+-   2019-02-18 Update zoom image Roman `44cbd6d1`
+-   2019-02-18 comment likes dmitryvko83 `24255c00`
+-   2019-02-18 follow suggestions dmitryvko83 `c2313f24`
+-   2019-02-18 Add navOptions Roman `8172a2ec`
+-   2019-02-18 Merge pull request #115 from all-social/fix/repost-on-single-post Dmitry Kostetsky `65d4f8e3`
+-   2019-02-18 Merge pull request #117 from all-social/feature/zoom_photo Dmitry Kostetsky `e7fe792e`
+-   2019-02-18 merged with master dmitryvko83 `7c68a351`
+-   2019-02-14 Added zoom image; improvement fps Roman `f927c875`
+-   2019-02-18 Merge pull request #111 from all-social/bug/singlePost-pagination Dmitry Kostetsky `1373efbe`
+-   2019-02-18 Merge pull request #116 from all-social/fix/crash-on-set-values Dmitry Kostetsky `36245563`
+-   2019-02-18 Merge pull request #114 from all-social/fix/on-delete-post Dmitry Kostetsky `cabdb336`
+-   2019-02-18 Merge pull request #118 from all-social/feature/update_user_profile Dmitry Kostetsky `c073e046`
+-   2019-02-18 Merge pull request #119 from all-social/feature/increase_width_of_attached_banner Dmitry Kostetsky `e67c2461`
+-   2019-02-18 Merge pull request #120 from all-social/feature/alert_message Dmitry Kostetsky `648fd77e`
+-   2019-02-18 Merge pull request #121 from all-social/feature/modal_on_logout Dmitry Kostetsky `1389ae23`
+-   2019-02-17 Add logout alert Roman `977fde59`
+-   2019-02-17 Changed place Roman `264a2781`
+-   2019-02-17 Add alert message Roman `a54408b1`
+-   2019-02-17 Deleted placeholder for card Roman `a34f4bab`
+-   2019-02-17 Add props Roman `8f28d711`
+-   2019-02-17 Added avatar; Add border Roman `46b94b02`
+-   2019-02-14 fix crash on setInitValues of customActivity dmitryvko83 `c5a346bb`
+-   2019-02-14 showing reposts on single post like on web app dmitryvko83 `4006adbf`
+-   2019-02-14 another delete action on timeline dmitryvko83 `d3571a55`
+-   2019-02-14 Merge pull request #112 from all-social/fix/autogrow-comment Dmitry Kostetsky `13f0252b`
+-   2019-02-14 Merge pull request #113 from all-social/fix/splash-screen-transition Dmitry Kostetsky `79e2ea0e`
+-   2019-02-14 Splash screen transition fix dmitryvko83 `4f95c472`
+-   2019-02-14 make unique search results for duplicates Dmitry Kostetsky `f32c725c`
+-   2019-02-14 Added like counter to each Post Comment Dmitry Kostetsky `babfa481`
+-   2019-02-14 Auto grow on comment text input dmitryvko83 `00c86186`
+-   2019-02-14 Update index.js Amin Mahboubi `39d108e7`
+-   2019-02-14 Builds version up Dmitry Kostetsky `f8de9f99`
+-   2019-02-14 Merge pull request #110 from all-social/feature/get_back_fastimage Dmitry Kostetsky `a9268910`
+-   2019-02-14 Merge pull request #109 from all-social/fix/keyboard-android-spacer Dmitry Kostetsky `77dfb587`
+-   2019-02-13 Added constructor Roman `c268af5c`
+-   2019-02-13 renamed func Roman `858c522e`
+-   2019-02-13 Changed to fastImage Roman `c5af84dd`
+-   2019-02-13 iphone x support dmitryvko83 `a8f4db6f`
+-   2019-02-13 fix empty space on ios dmitryvko83 `ed7e178a`
+-   2019-02-13 Merge branch 'master' of https://github.com/all-social/mobile into fix/keyboard-android-spacer dmitryvko83 `42261382`
+-   2019-02-13 Fix keyboard spacer on android dmitryvko83 `0a70bab7`
+-   2019-02-13 Merge pull request #107 from all-social/feature/deep-links Dmitry Kostetsky `fecf4f26`
+-   2019-02-13 Merge pull request #108 from all-social/fix/following-notification Dmitry Kostetsky `b04cb319`
+-   2019-02-13 navigate to profile if notification is kind of following dmitryvko83 `fec9fdbd`
+-   2019-02-13 Show beautiful message on Search Screen Dmitry Kostetsky `527f57a7`
+-   2019-02-13 merged with master dmitryvko83 `a10a48ee`
+-   2019-02-13 Set Android app orientation to portrait only Dmitry Kostetsky `3014c952`
+-   2019-02-13 fast commands, do not delete dmitryvko83 `ae846615`
+-   2019-02-13 merged with master dmitryvko83 `0dd4b4b9`
+-   2019-02-13 handle link on cold start android dmitryvko83 `22c208b8`
+-   2019-02-13 handle link on loader screen dmitryvko83 `99a00852`
+-   2019-02-13 Fixed statusbar style issue Dmitry Kostetsky `9016a89b`
+-   2019-02-13 Fix some Flow and ESlint errors Dmitry Kostetsky `7075d632`
+-   2019-02-13 Project files clean-up Dmitry Kostetsky `1d41779d`
+-   2019-02-13 Builds version up Dmitry Kostetsky `05ce8b8c`
+-   2019-02-13 Merge pull request #106 from all-social/feature/scalable_image Dmitry Kostetsky `bcc51f5d`
+-   2019-02-13 Merge pull request #105 from all-social/fix/remove-duplicates-dep Dmitry Kostetsky `eb9caaab`
+-   2019-02-12 Scalable image Roman `049e6812`
+-   2019-02-12 wip deeplinks dmitryvko83 `7b376281`
+-   2019-02-12 remove duplicate dependency on android dmitryvko83 `0c3cd609`
+-   2019-02-12 Merge pull request #104 from all-social/fix/single-post-feedrequest Dmitry Kostetsky `1f8dfccf`
+-   2019-02-12 Post Detail view `doFeedRequest` , same as others dmitryvko83 `706b4712`
+-   2019-02-12 Merge pull request #103 from all-social/expo-eject-fast-image Dmitry Kostetsky `0bc9ab69`
+-   2019-02-12 Merge branch 'master' into expo-eject-fast-image Dmitry Kostetsky `988fd852`
+-   2019-02-12 Merge pull request #102 from all-social/fix/login-token Dmitry Kostetsky `8993db1c`
+-   2019-02-12 Login to new token dmitryvko83 `971d8c58`
+-   2019-02-12 Merge pull request #84 from all-social/expo-eject Dmitry Kostetsky `7e1041e4`
+-   2019-02-11 Pre-release changes Dmitry Kostetsky `24271beb`
+-   2019-02-11 wip fast image dmitryvko83 `874d1004`
+-   2019-02-11 fix android search screen dmitryvko83 `e499995b`
+-   2019-02-11 always show own feed dmitryvko83 `5a6c13cf`
+-   2019-02-11 keyExtractor on attachments dmitryvko83 `5824055b`
+-   2019-02-11 updating user avatar dmitryvko83 `7be70406`
+-   2019-02-11 fonts link, offline bar padding removed on android dmitryvko83 `56daf9d3`
+-   2019-02-11 statusbar color android dmitryvko83 `0f5ed0f2`
+-   2019-02-11 android permissions dmitryvko83 `0f4814a8`
+-   2019-02-11 splashscreen generated dmitryvko83 `b01d5e8f`
+-   2019-02-11 wip splashcreen dmitryvko83 `9adb1b98`
+-   2019-02-11 Merge branch 'expo-eject' of https://github.com/all-social/mobile into expo-eject dmitryvko83 `c5c07887`
+-   2019-02-11 rm expo's Permissions, ImagePicker dmitryvko83 `4d783fd4`
+-   2019-02-11 fix displaying name dmitryvko83 `0beeec4d`
+-   2019-02-11 Unnecessary iOS projects deleted Dmitry Kostetsky `72eb65e0`
+-   2019-02-11 Added iOS App icons Dmitry Kostetsky `fd840ae3`
+-   2019-02-11 Merge branch 'expo-eject' of https://github.com/all-social/mobile into expo-eject dmitryvko83 `e0631db6`
+-   2019-02-11 add image fix, createActivity fix dmitryvko83 `2207bbc0`
+-   2019-02-11 Added App icons for android Dmitry Kostetsky `272c9dfd`
+-   2019-02-11 Merge branch 'expo-eject' of https://github.com/all-social/mobile into expo-eject dmitryvko83 `2e5d8aaf`
+-   2019-02-11 profile feed fix dmitryvko83 `b8bb506f`
+-   2019-02-11 App versions up Dmitry Kostetsky `6b891ae3`
+-   2019-02-11 Resolved merge conflicts Dmitry Kostetsky `e7898cf3`
+-   2019-02-11 yarn commands dmitryvko83 `fdb3af6c`
+-   2019-02-11 Resolved merge conflicts Dmitry Kostetsky `ef188442`
+-   2019-02-11 Merge remote-tracking branch 'refs/remotes/origin/expo-eject' into expo-eject Dmitry Kostetsky `e5ca262c`
+-   2019-02-10 Merge pull request #100 from all-social/feature/privacy-settings Dmitry Kostetsky `9a5a5ef0`
+-   2019-02-05 get images with permissions dmitryvko83 `f6233d52`
+-   2019-02-05 rn permissions added and linked dmitryvko83 `8b636445`
+-   2019-02-05 imagePicker added and linked dmitryvko83 `512a654f`
+-   2019-02-05 delete ./src/src dmitryvko83 `38fd9a88`
+-   2019-02-05 bottomsheet instead of expo/actionsheet dmitryvko83 `a99bcf28`
+-   2019-02-05 android fix allsociall to allsocial dmitryvko83 `9c16fd1c`
+-   2019-02-05 Fixed Android errors with native components Dmitry Kostetsky `b7f94a02`
+-   2019-02-05 cocoapods update dmitryvko83 `b174a9a4`
+-   2019-02-05 Pods updated Dmitry Kostetsky `a9e04b31`
+-   2019-02-05 Pods updated Dmitry Kostetsky `5dcee957`
+-   2019-02-05 Clear RN install (0.58.3) Dmitry Kostetsky `2fdf49c4`

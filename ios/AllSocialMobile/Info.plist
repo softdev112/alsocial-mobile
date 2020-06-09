@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Appboy</key>
+	<dict>
+		<key>Endpoint</key>
+		<string>sdk.iad-03.braze.com</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>AllSocial</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.303</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>allsocialapp</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CodePushDeploymentKey</key>
+	<string>$(CODEPUSH_KEY)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<array>
+			<string>localhost</string>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+			<string>google.com</string>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>By allowing access to Apple Music, we are able to suggest music for you and your family</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>By allowing access to Bluetooth, we are able to communicate with other families with ease</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>By allowing access to Bluetooth, we are able to communicate with other families with ease</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>By allowing access to your calendar, we are able to process invites automatically for you</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow "AllSocial" to access your camera to update your profile picture and post photos?</string>
+	<key>NSContactsUsageDescription</key>
+	<string>"AllSocial" Would Like to Access Your Contacts - This will give us the ability to invite your friends to the platform. We don’t save this data in our servers.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow "AllSocial" to access your geolocation to deliver relevant data and suggestions?</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>By allowing access to your location, we are able to provide services in your geographical area</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>By allowing access to your microphone, we are able to send your voice when performing a call</string>
+	<key>NSMotionUsageDescription</key>
+	<string>By allowing access to motion usage, we are able to better detect how you and your family move</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow "AllSocial" to access your photo library to update your profile picture and post photos?</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow "AllSocial" to access your photo library to update your profile picture and post photos?</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>By allowing access to speech, we are able to faster enter information for you</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>Helvetica.ttf</string>
+		<string>Helvetica-Bold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>branch_app_domain</key>
+	<string>allocial.app.link</string>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_fdPbCI5vNgk0qARneRowNehjEwpB17tZ</string>
+		<key>test</key>
+		<string>key_test_obQlDH2DRkeXAqKddGcyJfohxvhA25tT</string>
+	</dict>
+</dict>
+</plist>

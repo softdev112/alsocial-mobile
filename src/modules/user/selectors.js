@@ -1,0 +1,11 @@
+export const getUserId = state => state.userState._id;
+export const getUserToken = state => state.userState.token;
+export const getUserStreamToken = state => state.userState.streamToken;
+export const getUserFullName = state => state.userState.name;
+export const getUserEmail = state => state.userState.email;
+export const getUserInterests = state => state.userState.interests;
+export const getUserSuggestions = state => state.userState.suggestions;
+export const getUserAvatar = state => state.userState.profileImage;
+export const getUsername = state => state.userState.username;
+export const getUserGender = state => state.userState.gender;
+export const getUser = state => state.userState;

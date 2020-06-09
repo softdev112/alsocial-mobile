@@ -1,0 +1,4 @@
+Device ID	Device Name
+1b8cd0b6241736c72fba5f8ffa35cb12feb7be17	"Alexander’s iPhone"
+d315695c31151ec0f273aa9199f16acb2e94e453	"iPhone krugliak"
+6fba2d7b92f5f343bd244e0e92c8d5d3653ce59f	"Dmitro’s iPhone 6"

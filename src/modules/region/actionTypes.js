@@ -1,0 +1,2 @@
+export const REGION_LOAD = "REGION/LOAD";
+export const REGION_LOAD_SUCCESS = "REGION/LOAD/SUCCESS";
